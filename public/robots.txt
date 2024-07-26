@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.dreampip.com
+
+# Sitemaps
+Sitemap: https://www.dreampip.com/sitemap.xml

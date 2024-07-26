@@ -1,0 +1,4280 @@
+{
+    "sys": {
+        "type": "Array"
+    },
+    "total": 63,
+    "skip": 0,
+    "limit": 1000,
+    "items": [
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "✌️",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "2Df7lcKPJKxRmG6LpLNIhI"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "4u8M9LZBECXwWLvuMJRC0d",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "3ZqG5HUrYCuTDEmYaeucuG",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "6vTbvTfBOBUwOf8jjxwocL",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "5MsKDEHJwrl1MH0CXa8nOl",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "5R0IANcsXolo97oNU9DRw4",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "5g4Hgx2kmYra42MTR9UCqQ",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "5fAUsLIz8YV745wEUgiUg8"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "nodeType": "document",
+                    "data": {},
+                    "content": [
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "Подготовка живого сета. Просто экспериментирую с инструментами, звуками и циклами.",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        },
+                        {
+                            "nodeType": "embedded-entry-block",
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "2BWMPuotU2VnmbPxVWiOTB",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": []
+                        },
+                        {
+                            "nodeType": "paragraph",
+                            "data": {},
+                            "content": [
+                                {
+                                    "nodeType": "text",
+                                    "value": "",
+                                    "marks": [],
+                                    "data": {}
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "sys": {
+                "id": "5nMzCL46M0Pdg907aaVmSk"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "скорбь о моем отце включает в себя прослушивание деда",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Karuna Sessions - это свободная воскресная звуковая пейзажная трансляция.\nПоскольку Каруна на санскрите означает сострадание, мы стремимся к тому, чтобы каждый индивид, группа, коллектив и окружающая среда нашли в нашей программе возможность выражать себя в свободной форме.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "E9qgCeADzxLJkUWJU6mO3"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Джаз и соул микс, сделанный во время короткой поездки в Черногорию с всего 4 альбомами на моем ноутбуке. Иногда меньше значит больше и заставляет нас раскрывать больше творчества. Надеюсь, вам понравится и вы расслабитесь, как и я. Одна любовь!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "3nutolJ3PD43UT18Q1wavv",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "LBRtSpwtL3j45oB2Sq5OD"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Человек с ведром.\nЧеловек, который отпустил.\n\nВедро человек.\n\nВедро с человеком.\nЧеловек в ведре.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Человек с некоторыми долларами.\nЧеловек без долларов.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Человек без ведра.\nЧеловек, которого нужно отпустить.\n\nВедерко.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "7u1DNF8YKjDeQC0t8U8CtP",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "2aq8gQ2SwrOhvw4FJ3aF5Y"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "я\nопять\nопоздал",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "я думаю\nвечеринка\n\nначалась\nнесколько\nнедель\nназад\n\nи\nвсе\nбыли\nс похмелья\n\nи\nвосстановились\n\nи\nобнаружили\n\nв то время как\nя\n\nпропустил\nуведомление\n\nи\nбудильник\n\nи\nпока\nвсе\nбыли\nвстревожены\n\nя\nбыл\nочарован\n\nмоментами\n\nот которых\nвсе\nбоялись\nпотерять\n\nи\nя их потерял\n\nи\nони\nвосстановились\n\nнекоторые\nрешили\nэто\nне должно\nиметь значения\n\nнекоторые\nрешили\nчто\nне осталось\nмного\nчего\nсделать\n\nв любом случае\n\nнекоторые\nвспомнили\n\nпоэтому\nони\nобнаружили\n\nчто\nтакое\nочаровательное\n\nв моментах\n\nкоторые\nпостоянно\nотвлекали\nменя\n\nи\n\nкогда\nя проснулся\n\nи\nпочувствовал\nкак будто\nзадыхаюсь\n\nя\nподумал\nо том чтобы\nкричать\n\nи\nпотерял\nчувство\n\nпоэтому\nя\nобнаружил\n\nчто\nя\nопять\nопоздал.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "42Kq2tvzOxgOW6doDc68WM"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Когда игла попадает в канавку, и движение превращается в свет, который в свою очередь двигает динамик, мы знаем, что от чувства до ног, между ними есть целая невидимая вселенная.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Это путешествие, через которое наш гость Андреа Пассажир проводит нас в этой 1-часовой микстейп, подготовленной для Purizu и транслируемой в рамках Karuna Sessions #172.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Продолжайте...",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "4uEtHvCwpQYsQ635xyk4vo"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Mendigos do Brooklyn - это экспериментальный проект, который начался в подвале в 2017 году, после очень интенсивной сессии всевозможного шума, шугейзинга и создания живых битов, включая звуки скрипок, гитары, баса, барабанов и перкуссии.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "На этот раз, Анжело Реале и Андрей Юнкильо собираются вместе, даже если удаленно, чтобы придать жизнь этой сессии Каруны, названной Solidão (что на португальском означает одиночество), для выпуска #171.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "6fSHRxNhGndRbD7lUe31AC",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "11VO3cVdSBf5IbMfNlfbmV"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "2HSScIp7LEWY9Q8wyNVGJM",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "1cz4mbGQqhpGHocWA4JRh5"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "2P2UVWPoPKLMVlUBmpciCF",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Стоимость прямой трансляции: около 2$",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "4yM7x5I49C2v6uGf0csbR2"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "ВСЕ, ЧТО Я ХОЧУ, ЭТО WING STOP",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "2Ls4QJZogXAbaRY70X3wsc",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "6lBrMsxdthJ54IzthRZf1q"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "ВСЕ, ЧТО Я ХОЧУ - ЭТО WING STOP",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "6KRH0WHqLvcDuc2SC3U1n4",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "4kS8oV5d5j3RYJQyPGGKEh"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "H6Jg4eDlM6RBM7VEVhrfb",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "2E8C4aI3TV2o8Z6MNNK4AM"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "5hBDQucTQlSyiQToD0TFNa",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "7eDfH3Xei958gOKvi6ZZcx"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "5f0p755OOu5IBafVyupHXy",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "touKr1m8aqBd6fDvDPeBh"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "2yWPTCLxL17KVMUq6OCkeQ",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "49HtftMbgOGRMLuzGgP6dp"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "4aONOVNZ4smS4HsUWGgfYr",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "HmtJEgjd45nJBRRrAsOdB"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы встретили Рандо Аранда (к.о.у.г.х) в Таллине еще в 2014 году как Karuna \nSessions. Парень настоящий, подлинный и добрый. Мы рады, что он вернулся\n на Purizu в этот раз, с целым часом уникальности (если это\n вообще возможно). Спасибо, Рандо.⁠",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "6QngP5StfANRevVf4L9nyw"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы очень почетно иметь господина DrummieDave на шоу, где он представляет некоторые из его отобранных треков, выпущенных в прошлом лете 2022 года. Спасибо, DrummieDave!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "RymJcRhNQXpcLFbhYNeHb"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "МАПА, художественное имя Матеуса Патриарха: композитора, певца и гитариста, только что выпустил сингл \"Монета удачи\", песню, полную энергии и разнообразия, смесь мистических, аллегорических и объективных восприятий. Под влиянием инди и MPB, его песни приносят сообщение о надежде и живости, смешивая ритмы и электронную музыку.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "5j4mtmPtAEhiEdSv0QZFeo"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы имели удовольствие встретить Понккио в 2017 году, когда мы были DBA Tacitera. На этот раз мы вернулись к нему, для эксклюзивного микса, записанного для Purizu. Прошло 5 лет, но все еще 1 удар.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "3ZKDi5hR3mbNMo9CqoLAiM"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы встретили Ники в Берлине в 2013 году. Талантливый и преданный селектор лучших смесей всего, что черно-диско-фанк-душа. Он также будет играть для нас на официальном запуске Purizu здесь, в Сассари, в следующую субботу в The Room. Рад видеть тебя снова, Ники.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "1DdgvSNnLyhvYj5kV5A2hh"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Это Афроказа. Ваш хозяин?",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "алебастр",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": ". Просто отдохните и расслабьтесь, потому что так мы отдыхаем.⁠",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "7C6OCx1iv2Mh8PG58Hz6lg",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "73onBW5pVLgrUVakV0EGs2"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы в прямом эфире из студии в Сассари для первой домашней сессии, где ваш хост, Фоис, проведет вас через свои звуковые пейзажи. Откиньтесь назад и наслаждайтесь поездкой!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "12Gew8GHNt65OF5vjGzcuA",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "2Dn4fkePViG4I2FTbuoJBT"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы рады принимать шоу More Peas от Джеймса Блейка. Спасибо вам, сэр.⁠",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "3YjhOharmFjM7dkZk7z32Q"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы встретились с дудом в 2017 году, когда он работал над проектом Intense в южном регионе Бразилии, где он присоединился к нам для подкаста с Tacitera. Добро пожаловать обратно, дуд!⁠",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [
+                                        {
+                                            "type": "bold"
+                                        }
+                                    ],
+                                    "value": "__Ссылки",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://soundcloud.com/dud_deejay"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://soundcloud.com/dud_deejay",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.facebook.com/dudofficial"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://www.facebook.com/dudofficial",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.instagram.com/dud_deejay/"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://www.instagram.com/dud_deejay/",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.youtube.com/channel/UCdOR-uPrqQ4kXZjp7PFU5Tg"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://www.youtube.com/channel/UCdOR-uPrqQ4kXZjp7PFU5Tg",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.facebook.com/iguassusessions"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://www.facebook.com/iguassusessions",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "3bQXk585cHjwZKVZeSTzIK"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Пора запускать. Мы хорошо поработали в последние две недели и уверены, что оставим положительный след в нашем доме, который сейчас находится в Сассари / Сардиния.\n\nЧтобы начать мероприятие по запуску, единственный в своем роде Амар Мансур из Бруклина, который приносит нам немного своего выбора афро-хауса.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "A4n0AoYUDsCZJITkfVRGk",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "tRCv64gjeawiLZxMN7s7n"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Пора запускать. Мы хорошо поработали в последние две недели и уверены, что оставим положительный след в нашем доме, который сейчас находится в Сассари / Сардиния.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "В продолжение, Fois транслирует в прямом эфире из The Room здесь в Сассари, где мы отмечаем наш официальный запуск.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "1wCtq5SAlicDpRCQ9eIPrL",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "6Lx0s5XssqOWkZJ5r7XySR"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Пришло время запуска. Мы хорошо поработали за последние две недели и уверены, что оставим положительный след в нашем доме, который сейчас находится в Сассари / Сардиния.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Оставайтесь сейчас с единственным и неповторимым Yellow P, также известным как Dubversão Som Sistema, оригинальным селектором даба из Сан-Паулу, транслирующимся в прямом эфире из Бразилии специально для нашего удовольствия здесь в Сассари и для вас, кто смотрит онлайн.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "5Qhpd8QoylmDb0TELYXtKp",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "1uOCWvnyq80snmW16VCnHX"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Время запуска. Мы хорошо поработали в последние две недели и уверены, что оставим положительный след в нашем доме, который сейчас находится в Сассари / Сардиния.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "И это завершение, мы перевезли нашего друга Ники со своими записями из Сицилии сюда в Сассари, просто чтобы поделиться с нами здесь и с вами, кто смотрит онлайн.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Спасибо за просмотр",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "/прослушивание",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "6i6eQogc8T6GWslusuzV7I"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Время запуска. Мы хорошо поработали в последние две недели и уверены, что оставим положительный след в нашем доме, который сейчас находится в Сассари / Сардинии.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Поскольку рейс Ники немного задержался, наш основатель, Реале, встал за деки и проиграл некоторые из своих винилов.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "3PYyH8E1d8I9KACRyXZiuR"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Диджей и фотограф из Сан-Себастьяна. Дома в DBDB Club Nights, ее сессии полны яркости, полны разорванных ритмов и окутывающих атмосфер.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "С свежим выбором теплых звуков и интуицией для создания правильного настроения, всегда ищет эмоциональное пространство, в котором можно почувствовать и танцевать.",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n\nМы встретились с Опе еще в 2013 году, и она по-прежнему поражает нас своим уникальным звуком. Ожидайте некоторых твердых перерывов и некоторых причудливых pads, электроника в лучшем виде. Добро пожаловать обратно, Опе!\n\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.instagram.com/opeloeb/"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Инстаграм",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.mixcloud.com/ope-loeb/"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Миксоблачко",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "5bj8VJzdEIkau6sFzZMQT1"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы приветствуем Марко Герберта во втором эпизоде еженедельного шоу от испанских рептилоидов: СЕССИИ ЯКАРЕ.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "4oDE7t78USurKNF2pldBay"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы приветствуем мастера Сплинтера из Сальвадора с новым шоу под названием Intono.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Родившийся в бразильском штате Баия (Сальвадор де Баия), Розенилдо Да Силва Франка, DJ Splinter, начал свою карьеру в 80-х как резидент DJ в клубах Close-up и Tropicalia в Сальвадоре, играя диско и хаус музыку. С тех пор он никогда не прекращал работать DJ.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "4lJIG3ZRqv5wSYqCvucZlu"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Impromptu Sessions - это внезапное шоу, которое проходит в прямом эфире из наших студий в Италии. Они не следуют никакому расписанию.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "56exIgLudFWd20SEPnaixL"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Karuna Sessions - это свободная воскресная звуковая трансляция. Поскольку Karuna на санскрите означает сострадание, мы стремимся усилить каждого отдельного человека, группу, коллектив и амбицию, чтобы найти в нашей программе возможность выразить себя в свободной форме.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "7MxLDCkjOIDwihOk1p0uHU"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мау Майоли, художник в Alliance Artists, резидент в Levels Sunset, Oben Beer и со-создатель лейбл-вечеринки Beat On Me и лейбла Levels Rec, выполняет фундаментальную работу на танцполе и в студии. Помимо его острого и обширного музыкального исследования, Мау играет важную роль в студии, где у него есть релизы от Concreta Sala (США), Warung Recordings, Young Society Records (GER) и Prototype, на этом последнем лейбле он имел честь получить ремикс от Ренато Коэна и поддержку от Perel, Local Suicide и Fatnotronic.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "292qu2wCu23nYXUQ8Gc501"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы приветствуем Мэри G за ее шоу Mistérios da Meia Noite, без определенной каденции или расписания.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Ожидайте некоторого хорошего выбора отобранных грувов, от Гал Коста до Сан-Ра, смешанных с лучшими джазовыми-фанковыми-соул битами.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "77zAeTc5B3xHm3ljafE40Z"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "В создании своих сетов Брукс превосходит в сильных битах, наполненных ударными басовыми линиями, в прогулке между домом и техно, всегда с местом для более синтетических вариаций, не отказываясь от грува и свинга. Сценарий для этого фильма неизбежно закончился бы вечеринкой, с артистом, командующим звуком, делающим то, что он делает лучше всего: вызывает улыбки на потном танцполе.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Харизма, тщательная техника и расслабленное поведение уже зарегистрированы как товарные знаки, признанные всей публикой в городе. В настоящее время он передает знания, преподавая классы микширования и углубляя свои исследования в производстве авторских треков.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Ссылки:\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://linktr.ee/brooksbr "
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://linktr.ee/brooksbr ",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.instagram.com/brooksbr_"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://www.instagram.com/brooksbr_",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "1bFLP9cxD1uRDsPlCEcAIq"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Включи басы!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "2Hdm5A1orIUC1d1Je8u7RP"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Следующая остановка: Сальвадор/Бразилия. После нашего официального запуска в городе Сассари в Италии, мы проходим через землю пальмового масла, чтобы вспомнить магию Оришасов.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Оставайтесь сейчас с повтором от DIMITO.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "3ryrXWxHC264H7WSvcsrPq"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Следующая остановка: Сальвадор / BR. После нашего официального запуска в городе Сассари в Италии, мы проходим через землю пальмового масла, чтобы вспомнить магию Ориксов.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Оставайтесь сейчас с повтором от Scooby Dub.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "7d6ilKyMuEy6A2uKhmHxu5"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Следующая остановка: Сальвадор/БР. После нашего официального запуска в городе Сассари в Италии, мы проходим через землю пальмового масла, чтобы вспомнить магию Оришасов.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Оставайтесь сейчас с MAPA, в прямом эфире с места события.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "1pY5ssH5Bb4FPiAe64Gjq5"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Следующая остановка: Сальвадор/БР. После нашего официального запуска в городе Сассари в Италии, мы проходим через землю пальмового масла, чтобы вспомнить магию Оришасов.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Оставайтесь сейчас со Сплинтер, прямая трансляция с места события.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "1nQuDZkxPle9F075nXxFRq"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Следующая остановка: Сальвадор/БР. После нашего официального запуска в городе Сассари в Италии, мы проходим через землю пальмового масла, чтобы вспомнить магию Ориксас.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Оставайтесь сейчас с Reale, прямая трансляция с места события.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "74WgQcHjITf3ftvXO13NCT"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Джейми Рентон - диджей из Лондона, который вращает уникальную смесь глобальных вечеринок: от сырого фанка до корней регги, от блюза до хип-хопа, от тропиков до Балкан и далее. Он играл на фестивале Гластонбери, в Dingwalls, Hootananny, Scala, на музыкальном фестивале Гибралтара, в Jazz Café, The Jago, The Roundhouse, 100 Club и многих других прекрасных местах и фестивалях по всей стране и за рубежом. Приносит чистую приятность и самые горячие ритмы, куда бы он ни пошел.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.instagram.com/jamierenton2010/"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Инстаграмм",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://twitter.com/jamie_renton"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Твиттер ",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.facebook.com/jamie.renton.564"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Фейсбук",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.mixcloud.com/jamie-renton/"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Миксоблачко",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "YuGWTJvqxs5rjhSIzd0NB"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Максвелл Саймонс, электронный продюсер, наполовину итальянец, наполовину бразилец, с самого юного возраста занялся самыми разнообразными жанрами: от baile funk до детройтского техно и от хард-хауса до хип-хопа. Он вскоре связал свою страсть к музыке с электронным производством и начал практиковаться с синтезаторами и оборудованием, став популярным ди-джеем в местном сообществе.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "После нескольких лет активной работы на сцене, игры на вечеринках и живых выступлений, артист решил изучать звукозапись в университете, совершенствуя свою практику и расширяя свои вкусы до баса, индустриальной музыки и рэпа.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Художник очень заинтересован в обоих аналоговых и цифровых техниках, экспериментируя с образцами, записями с места событий и либо живыми, либо виртуальными инструментами. Сильные навыки редактирования, полученные на его работе в телестудиях, делают разницу в обработке рэп-вокала и нарезке битов.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Результаты - это невероятно футуристические и смелые творения, часто фильтруемые через графические образы, которые превращают звук в погружающий кинематографический опыт.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://maxwellsimons.bandcamp.com/"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Бандкамп",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://soundcloud.com/maxwell-simons-1"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Саундклауд",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.instagram.com/maxwell_simons/"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Инстаграм",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "1mYB93N9CS3vsVCbqEeZDn"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "6Y2tCEWxjjQAUjOF8pvG9c",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "2UD3f3BKCsLBRq9aI7IE71"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Нет никакого способа построить успешную карьеру, кроме как полностью посвятить себя своей мечте, и Шарли Роджер наслаждается каждым моментом этого.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Часы, проведенные в поисках и выборе подходящей музыки, часы, проведенные в планировании структуры вечера, а затем часы, проведенные в их осуществлении. У Шарли Роджера есть способность сочетать видение с компетентностью, смелостью и изысканностью. Иногда медленно, иногда более интенсивно, он работает над своими сетами до мельчайших деталей, чтобы найти идеальный способ превратить моменты, проведенные с аудиторией, в незабываемые впечатления.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Во времена «еще того же», он полностью живет своей подлинностью и оставляет немного себя и своей страсти к музыке и работе в каждом треке.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Неугомонный, настойчивый, компетентный, Чарлли Роджер всегда более чем счастлив проводить все свое время на своих вечеринках, потому что он серьезно относится к своей профессии. И это именно то, что для него наиболее важно. Это миссия, на которую он отправился, и конца ей не видно.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "ResidentAdvisor: ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "http://residentadvisor.net/profile/charllyroger"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "residentadvisor.net/dj/charllyroger",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\nSoundcloud: ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "http://soundcloud.com/charllyroger"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "soundcloud.com/charllyroger",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\nFacebook:  ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "http://www.facebook.com/djcharllyroger"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "www.facebook.com/djcharllyroger",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "4ttgcCwpZ6S6SzvcS552xA"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Мы очень почтены, что у нас есть мистер DrummieDave для шоу, где он представляет некоторые из его отобранных треков для NYE. Спасибо вам, DrummieDave!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "3eNDd9832CEwqabaFWvcTz"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Родившийся в Берлине в 1981 году, Саша, известный как Kid Kosmik, открыл для себя любовь к музыке с раннего возраста и мгновенно подсел на рок-н-ролл звучание той эпохи.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Переехав в австрийскую глубинку с родителями в 10 лет, Саша вырос на психоделическом роке, хард-роке, панк-роке, инди-роке, ска, регги и хип-хопе, так как всегда был открыт для разной музыки.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Смешно, но он настаивал на том, что электронная музыка не является \"настоящей музыкой\". Однако его мировоззрение изменилось в 2003 году, когда он переехал в Вену и открыл для себя подземную клубную сцену.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "После того, как он посетил свои первые фестивали психоделического транса, Саша начал играть психоделический транс в 2004 году и вскоре стал играть на многих вечеринках в Вене и по всей Австрии.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "В свои начальные годы Саша выступал под именем \"PinkPanther\" и был первым диджеем в то время, называя свой стиль музыки \"Deep Psy\". С помощью своего ежемесячного радиошоу \"Final Fantasy\" на Digitally Imported Radio, он смог поделиться своими диджейскими сетами с широкой аудиторией по всему миру.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "После перерыва в сцене Psytrance, он сменил свое диджейское имя и вернулся под именем “Ghost In The Shroom”. Оттуда он появился на нескольких международных линейках Psytrance в меньших и средних клубах и фестивалях в Европе, Центральной Америке и Гоа/Индия.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "В 2017 году Саша вернулся в Берлин и снова переосмыслил себя, создав \"Kid Kosmik\".",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Kid Kosmik - это DJ, обладающий многожанровыми навыками в различных звучаниях, включая минималистичный, глубокий, темный, прогрессивный и психоделический техно, тех-хаус, дип-хаус, прогрессивный хаус, психоделический транс и даунбит.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Ссылки и социальные сети Kid Kosmik",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.soundcloud.com/kidkosmik"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Саундклауд",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.facebook.com/KidKosmik.official"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Фейсбук",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.instagram.com/kidkosmik.official"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Инстаграм",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.tinyurl.com/kidkosmik-tube"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Ютуб",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\n",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://www.ra.co/dj/kidkosmik"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "Резидентский советник",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "27p6YVoQhitkW2kYBBPjGy"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "beVBIAkXbyDJysOikYl8R",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "Pn6JQp2PiW0ri0zu2LJth"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {
+                                "target": {
+                                    "sys": {
+                                        "id": "3Zcn7lfYTk0bTCGTdPzHl8",
+                                        "type": "Link",
+                                        "linkType": "Entry"
+                                    }
+                                }
+                            },
+                            "content": [],
+                            "nodeType": "embedded-entry-block"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "5pxDvt25XTXgQyE5yvYUAE"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Dj, копатель, смелый, он приходит из моря и постоянно погружен в контаминации момента, ища старые потерянные записи.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Он навигирует через звуки черной вселенной: джаз, хип-хоп, фанк, чтобы назвать некоторые.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Раз в месяц он проводит Sunday Brew на нечастотах Radio Banda Larga, воскресный утренний шейкер, в котором он спонтанно делится своими музыкальными исследованиями.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "4X2bdoxFzrMCN7HTWwET2I"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Klouterss - это свежий дуэт downtempo из Франции. Их влияния разнообразны, от этнических и племенных до индустриальных звуков. Единственный принцип: замедлиться.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "23pkPDJ5aJflW9JHXgZTEf"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Изначально транслировалось на радио livetwentyfour7 в Чикаго 10 месяцев назад:",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://livestream.com/livetwentyfour7/runningtunes/videos/230986636"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://livestream.com/livetwentyfour7/runningtunes/videos/230986636",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "5pVCS6oysTl4LqjzkhpKwJ"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "22.01.2023 - ",
+                                    "nodeType": "text"
+                                },
+                                {
+                                    "data": {
+                                        "uri": "https://livestream.com/livetwentyfour7/runningtunes/videos/234698544"
+                                    },
+                                    "content": [
+                                        {
+                                            "data": {},
+                                            "marks": [],
+                                            "value": "https://livestream.com/livetwentyfour7/runningtunes/videos/234698544",
+                                            "nodeType": "text"
+                                        }
+                                    ],
+                                    "nodeType": "hyperlink"
+                                },
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "5ybnQKH0oeXWfHMA7N4OSc"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Не много сказать. Музыка на виниле из частной коллекции Reale, которая охватывает жанры от: хаус, техно, тех-хаус, латин, джаз, блюз, соул, босса-нова, фанк, грув, фьюжн.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Суббота,\n22.04.2023 21:00-23:59h\nБесплатный вход\n\u0003Via Alberto La Marmora 48,\nАльгеро, Италия",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "2cOLHxVyz4OzbQE5RB38tq"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Согласно Книге Откровения в Новом Завете христианской Библии, Армагеддон (/ˌɑːrməˈɡɛdən/, из древнегреческого: Ἁρμαγεδών Harmagedōn,[1][2] позднелатинского: Armagedōn,[3] из иврита: הַר מְגִדּוֹ‎ Har Məgīddō) - это пророческое место сбора армий для битвы в конце времен, которое различно трактуется как буквальное или символическое место. Термин также используется в общем смысле для обозначения любого сценария конца света. В исламской теологии Армагеддон также упоминается в Хадисе как Великий Армагеддон или Аль-Малхама Аль-Кубра (великая битва).[4]",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "\"Гора\" Мегиддо в северном Израиле на самом деле не гора, а тел (курган или холм, созданный многими поколениями людей, живущих и восстанавливающихся в одном и том же месте) [5], на котором были построены древние крепости для охраны Виа Марис, древнего торгового пути, связывающего Египет с северными империями Сирии, Анатолии и Месопотамии. Мегиддо было местом различных древних битв, включая одну в 15 веке до н.э. и одну в 609 году до н.э. Современный Мегиддо рядом - это кибуц в районе реки Кишон. [6]",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "https://en.wikipedia.org/wiki/Armageddon",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "lFSXIwwrhFT5cEs5oyUSm"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Пожалуйста, приветствуйте ESCARRBE из Бразилии.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "64VOFygfvfgSUyyiEOIcfi"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Взлетел, -- мягко!",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "57HshV1yIEKh7xyPDlwQ23"
+            }
+        },
+        {
+            "fields": {
+                "body": {
+                    "data": {},
+                    "content": [
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Следующая остановка: Сальвадор/BR. После нашего официального запуска в городе Сассари в Италии, мы проходим через землю пальмового масла, чтобы вспомнить магию Оришас.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        },
+                        {
+                            "data": {},
+                            "content": [
+                                {
+                                    "data": {},
+                                    "marks": [],
+                                    "value": "Теперь оставайтесь с Фернандо Мерсес, в прямом эфире с места события.",
+                                    "nodeType": "text"
+                                }
+                            ],
+                            "nodeType": "paragraph"
+                        }
+                    ],
+                    "nodeType": "document"
+                }
+            },
+            "sys": {
+                "id": "613t21ASkSGdCG7tEi02OL"
+            }
+        }
+    ],
+    "includes": {
+        "Entry": [
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "12Gew8GHNt65OF5vjGzcuA",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2022-09-21T11:06:12.013Z",
+                    "updatedAt": "2022-09-21T11:07:28.081Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Home Session w. Fois [2022-09-21]",
+                    "url": "https://www.youtube.com/embed/0ln2aS_KY6M"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "1wCtq5SAlicDpRCQ9eIPrL",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2022-10-09T08:18:05.601Z",
+                    "updatedAt": "2022-10-09T08:19:36.160Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Purizu Official Launch at The Room Sassari: Fois (C) [2022-10-01]",
+                    "url": "https://www.youtube.com/embed/F3_us_1l_0A"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "2BWMPuotU2VnmbPxVWiOTB",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-10-15T18:11:28.659Z",
+                    "updatedAt": "2023-10-15T18:12:13.582Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Love pt.2 by Angelo Reale at Karuna Sessions #175 [2023-10-15]",
+                    "url": "2023-10-15_17-00-10"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "2HSScIp7LEWY9Q8wyNVGJM",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-09-09T18:31:38.791Z",
+                    "updatedAt": "2023-09-09T18:32:11.030Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Stream: Phoenix [Angelo Reale] at Karuna Sessions #170 ",
+                    "url": "2023-09-09_18-04-09"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "2Ls4QJZogXAbaRY70X3wsc",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-07-14T20:02:43.443Z",
+                    "updatedAt": "2023-07-14T20:03:02.799Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "ALL I WANT IS WING STOP",
+                    "url": "2023-07-14_21-29-08"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "2P2UVWPoPKLMVlUBmpciCF",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-06-27T11:03:53.720Z",
+                    "updatedAt": "2023-06-27T11:04:15.303Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Some rare specimen of racists walking freety",
+                    "url": "2023-06-27_10-20-01"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "2yWPTCLxL17KVMUq6OCkeQ",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 5,
+                    "createdAt": "2023-06-19T00:10:32.108Z",
+                    "updatedAt": "2023-06-21T16:42:51.228Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "testing bunny",
+                    "url": "2023-06-19_00-00-00"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "3Zcn7lfYTk0bTCGTdPzHl8",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-01-28T21:06:32.106Z",
+                    "updatedAt": "2023-01-28T21:07:00.344Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Impromptu Sessions w. Reale (L)",
+                    "url": "https://www.youtube.com/embed/Hz9JICqim_s"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "3ZqG5HUrYCuTDEmYaeucuG",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-11-06T21:38:03.308Z",
+                    "updatedAt": "2023-11-06T21:38:43.854Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "20231106 2/6",
+                    "url": "audio/20231106-0252-purizu.mp3"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "3nutolJ3PD43UT18Q1wavv",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-10-12T01:46:52.944Z",
+                    "updatedAt": "2023-10-12T01:50:40.284Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Hadrian at Karuna Sessions #174 (R) - Audio",
+                    "url": "/audio/purizu-320-Pasmo_93.mp3.mp3"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "4aONOVNZ4smS4HsUWGgfYr",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-08-07T23:50:53.692Z",
+                    "updatedAt": "2023-08-07T23:51:46.222Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Some rare specimen of racists walking around freely [2023-08-08]",
+                    "url": "2023-08-08_00-59-57"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "4u8M9LZBECXwWLvuMJRC0d",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-11-06T21:36:32.352Z",
+                    "updatedAt": "2023-11-06T21:37:52.452Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "20231106 1/6",
+                    "url": "audio/20231106-0020-purizu.mp3"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "5MsKDEHJwrl1MH0CXa8nOl",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 2,
+                    "createdAt": "2023-11-06T21:39:59.935Z",
+                    "updatedAt": "2023-11-06T21:53:00.509Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "20231106 4/6",
+                    "url": "audio/20231106-1302-purizu.mp3"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "5Qhpd8QoylmDb0TELYXtKp",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2022-10-09T08:16:02.161Z",
+                    "updatedAt": "2022-10-09T08:16:13.264Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Purizu Official Launch at The Room Sassari: Yellow P (C) [2022-10-01]",
+                    "url": "https://www.youtube.com/embed/T4iefJo6OY8"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "5R0IANcsXolo97oNU9DRw4",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 2,
+                    "createdAt": "2023-11-06T21:40:52.153Z",
+                    "updatedAt": "2023-11-06T21:53:15.216Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "20231106 5/6",
+                    "url": "audio/20231106-1541-purizu.mp3"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "5f0p755OOu5IBafVyupHXy",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 4,
+                    "createdAt": "2023-06-18T12:28:54.082Z",
+                    "updatedAt": "2023-06-21T10:44:13.605Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Bunny: Some Random Shit by Reale Part 2 (L) 2023-06-18",
+                    "url": "2023-06-18_23-00-00"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "5g4Hgx2kmYra42MTR9UCqQ",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 2,
+                    "createdAt": "2023-11-06T21:41:37.937Z",
+                    "updatedAt": "2023-11-06T21:53:30.963Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "20231106 6/6",
+                    "url": "audio/20231106-1818-purizu.mp3"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "5hBDQucTQlSyiQToD0TFNa",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 3,
+                    "createdAt": "2023-06-18T03:17:31.599Z",
+                    "updatedAt": "2023-06-21T10:30:39.668Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Bunny: Some Random Shit by Reale (L) 2023-06-18",
+                    "url": "2023-06-18_22-00-00"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "6KRH0WHqLvcDuc2SC3U1n4",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-07-15T02:07:03.984Z",
+                    "updatedAt": "2023-07-15T02:07:53.020Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "ALL I WANT IS WING STOP [2023-07-15]",
+                    "url": "2023-07-15_03-38-22"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "6Y2tCEWxjjQAUjOF8pvG9c",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2022-12-11T19:39:12.948Z",
+                    "updatedAt": "2022-12-11T19:40:02.910Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Soulbec w. Pitty Carnino (L) [2022-12-11]",
+                    "url": "https://www.youtube.com/embed/glX5HG4drIo"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "6fSHRxNhGndRbD7lUe31AC",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-09-17T20:16:12.430Z",
+                    "updatedAt": "2023-09-17T20:16:52.452Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Solidão [Mendigos do Brooklyn] at Karuna Sessions #171 (L) [2023-09-17]",
+                    "url": "2023-09-17_21-09-26"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "6vTbvTfBOBUwOf8jjxwocL",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 2,
+                    "createdAt": "2023-11-06T21:39:02.258Z",
+                    "updatedAt": "2023-11-06T21:39:48.715Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "20231106 3/6",
+                    "url": "audio/20231106-0536-purizu.mp3"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "7C6OCx1iv2Mh8PG58Hz6lg",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2022-09-21T22:37:08.669Z",
+                    "updatedAt": "2022-09-21T22:37:19.382Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Afrokaza w. alabastro [2022-09-21]",
+                    "url": "https://www.youtube.com/embed/-yYwy2pj-GU"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "7u1DNF8YKjDeQC0t8U8CtP",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-09-24T20:09:32.345Z",
+                    "updatedAt": "2023-09-24T20:10:05.078Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "S2 by Angelo Reale at Karuna Sessions #173 (L)",
+                    "url": "2023-09-24_20-04-27"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "A4n0AoYUDsCZJITkfVRGk",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 2,
+                    "createdAt": "2022-10-09T08:14:13.806Z",
+                    "updatedAt": "2022-10-09T08:17:49.157Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Purizu Official Launch at The Room Sassari: Amar Mansoor (C) [2022-10-01]",
+                    "url": "https://www.youtube.com/embed/gGu1clbChWc"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "H6Jg4eDlM6RBM7VEVhrfb",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-06-21T20:13:43.606Z",
+                    "updatedAt": "2023-06-21T20:14:08.384Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": "Live: Some Random Shit by Reale [2023-06-21]",
+                    "url": "2023-06-21_21-06-10"
+                }
+            },
+            {
+                "metadata": {
+                    "tags": []
+                },
+                "sys": {
+                    "space": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "Space",
+                            "id": "jbs68hjf5qms"
+                        }
+                    },
+                    "type": "Entry",
+                    "id": "beVBIAkXbyDJysOikYl8R",
+                    "contentType": {
+                        "sys": {
+                            "type": "Link",
+                            "linkType": "ContentType",
+                            "id": "liveStreams"
+                        }
+                    },
+                    "revision": 1,
+                    "createdAt": "2023-01-02T21:40:44.005Z",
+                    "updatedAt": "2023-01-02T21:41:14.659Z",
+                    "environment": {
+                        "sys": {
+                            "id": "staging",
+                            "type": "Link",
+                            "linkType": "Environment"
+                        }
+                    },
+                    "locale": "en-US"
+                },
+                "fields": {
+                    "title": " Rooting [Reale] at Karuna Sessions #165 (L) [2023-01-02] ",
+                    "url": "https://www.youtube.com/embed/ehM8ALUf0MU"
+                }
+            }
+        ]
+    }
+}
