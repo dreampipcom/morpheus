@@ -18,7 +18,8 @@ localeMap = {
   'cz': 'Cz',
   'se': 'Se',
   'jp': 'Jp',
-  'ee': 'Ee'
+  'ee': 'Ee',
+  'ru': 'Ru'
 }
 
 const spaceId = process.env.CONTENTFUL_SPACE_ID;
