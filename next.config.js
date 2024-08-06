@@ -63,6 +63,7 @@ const config = {
     compiler: {
         styledComponents: true
     },
+    assetPrefix: 'http://localhost:2999',
     async redirects() {
         return [
             {
@@ -129,6 +130,12 @@ const config = {
     },
     async rewrites() {
         return [
+            {"source": "/dash", "destination": "http://localhost:3000/"},
+            {"source": "/dash/:match*", "destination": "http://localhost:3000/:match*"},
+            {"source": "/api/v1", "destination": "http://localhost:3000/api/v1"},
+            {"source": "/api/v1/:match*", "destination": "http://localhost:3000/api/v1/:match*"},
+            {"source": "/services", "destination": "http://localhost:3000/"},
+            {"source": "/services/:match*", "destination": "http://localhost:3000/:match*"},
             {"source": "/app", "destination": "https://alpha.dreampip.com/"},
             {"source": "/app/:match*", "destination": "https://alpha.dreampip.com/:match*"},
             {
