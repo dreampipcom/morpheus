@@ -63,7 +63,7 @@ const config = {
     compiler: {
         styledComponents: true
     },
-    assetPrefix: 'http://localhost:2999',
+    assetPrefix: 'https://beta.dreampip.com',
     async redirects() {
         return [
             {
@@ -130,12 +130,12 @@ const config = {
     },
     async rewrites() {
         return [
-            {"source": "/dash", "destination": "http://localhost:3000/"},
-            {"source": "/dash/:match*", "destination": "http://localhost:3000/:match*"},
-            {"source": "/api/v1", "destination": "http://localhost:3000/api/v1"},
-            {"source": "/api/v1/:match*", "destination": "http://localhost:3000/api/v1/:match*"},
-            {"source": "/services", "destination": "http://localhost:3000/"},
-            {"source": "/services/:match*", "destination": "http://localhost:3000/:match*"},
+            {"source": "/dash", "destination": "https://nyx.dreampip.com"},
+            {"source": "/dash/:match*", "destination": "https://nyx.dreampip.com:match*"},
+            {"source": "/api/v1", "destination": "https://nyx.dreampip.comapi/v1"},
+            {"source": "/api/v1/:match*", "destination": "https://nyx.dreampip.com/api/v1/:match*"},
+            {"source": "/services", "destination": "https://nyx.dreampip.com/"},
+            {"source": "/services/:match*", "destination": "https://nyx.dreampip.com/:match*"},
             {"source": "/app", "destination": "https://alpha.dreampip.com/"},
             {"source": "/app/:match*", "destination": "https://alpha.dreampip.com/:match*"},
             {
