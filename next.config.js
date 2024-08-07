@@ -63,7 +63,7 @@ const config = {
     compiler: {
         styledComponents: true
     },
-    assetPrefix: 'https://beta.dreampip.com',
+    assetPrefix: 'https://www.dreampip.com',
     async redirects() {
         return [
             {
