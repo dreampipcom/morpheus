@@ -1,0 +1,249 @@
+From decfa74413cb13e2cc08ee6441d83acdda1221ab Mon Sep 17 00:00:00 2001
+From: Angelo Reale <12191809+angeloreale@users.noreply.github.com>
+Date: Mon, 22 Apr 2024 05:29:57 +0200
+Subject: [PATCH] ar(locale) ru
+
+---
+ lib/api.js | 187 +++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 187 insertions(+)
+
+diff --git a/lib/api.js b/lib/api.js
+index d3516560..f949141b 100644
+--- a/lib/api.js
++++ b/lib/api.js
+@@ -391,6 +391,36 @@ const EPISODE_LOCALES = {
+     }
+   }
+   `,
++  'ru-ru': `
++  body: bodyRu {
++    json
++    links {
++      entries {
++        block {
++          sys {
++            id
++          }
++          __typename
++          ... on LiveStreams {
++            url
++          }
++          ... on ContentBlocks {
++            type
++          }
++        }
++      }
++      assets {
++        block {
++          sys {
++            id
++          }
++          url
++          description
++        }
++      }
++    }
++  }
++  `,
+ }
+ 
+ const EPISODE = ({ locale }) => `
+@@ -965,6 +995,38 @@ const PAGE_LOCALES = {
+       }
+     }
+     description: descriptionJp
++  `,
++  'ru-ru': `
++    title: titleRu
++    content: contentRu {
++      json
++        links {
++          entries {
++            block {
++              sys {
++              id
++            }
++            __typename
++              ... on LiveStreams {
++              url
++            }
++            ... on ContentBlocks {
++              type
++            }
++          }
++        }
++          assets {
++            block {
++              sys {
++              id
++            }
++            url
++            description
++          }
++        }
++      }
++    }
++    description: descriptionRu
+   `
+ }
+ 
+@@ -1015,6 +1077,9 @@ const POSTS_LOCALES = {
+   `,
+   'ja-jp': `
+     title: titleJp
++  `,
++  'ru-ru': `
++    title: titleRu
+   `
+ }
+ 
+@@ -1421,6 +1486,37 @@ const POST_LOCALES = {
+         }
+       }
+     }
++  `,
++  'ru-ru': `
++    title: titleRu
++    content: contentRu {
++      json
++        links {
++          entries {
++            block {
++              sys {
++              id
++            }
++            __typename
++              ... on LiveStreams {
++              url
++            }
++            ... on ContentBlocks {
++              type
++            }
++          }
++        }
++          assets {
++            block {
++              sys {
++              id
++            }
++            url
++            description
++          }
++        }
++      }
++    }
+   `
+ }
+ 
+@@ -1845,6 +1941,37 @@ const EVENT_LOCALES = {
+         }
+       }
+     }
++  `,
++  'ru-ru': `
++    title: titleRu
++    body: bodyRu {
++      json
++      links {
++        entries {
++          block {
++            sys {
++              id
++            }
++            __typename
++            ... on LiveStreams {
++              url
++            }
++            ... on ContentBlocks {
++              type
++            }
++          }
++        }
++        assets {
++          block {
++            sys {
++              id
++            }
++            url
++            description
++          }
++        }
++      }
++    }
+   `
+ }
+ 
+@@ -2377,6 +2504,36 @@ const SHOW_LOCALES = {
+         }
+       }
+     },
++  `,
++  'ru-ru': `
++    bioRich: bioRichRu {
++      json
++        links {
++          entries {
++            block {
++              sys {
++              id
++            }
++            __typename
++              ... on LiveStreams {
++              url
++            }
++            ... on ContentBlocks {
++              type
++            }
++          }
++        }
++          assets {
++            block {
++              sys {
++              id
++            }
++            url
++            description
++          }
++        }
++      }
++    },
+   `
+ }
+ 
+@@ -2770,6 +2927,36 @@ const ARTIST_LOCALES = {
+         }
+       }
+     },
++  `,
++  'ru-ru': `
++    content: contentRu {
++      json
++        links {
++          entries {
++            block {
++              sys {
++              id
++            }
++            __typename
++              ... on LiveStreams {
++              url
++            }
++            ... on ContentBlocks {
++              type
++            }
++          }
++        }
++          assets {
++            block {
++              sys {
++              id
++            }
++            url
++            description
++          }
++        }
++      }
++    },
+   `
+ }
+ 

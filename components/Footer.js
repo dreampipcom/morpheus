@@ -104,6 +104,7 @@ function Footer({ copyrightHolder = 'Company Name' }) {
                 <MenuItem value="cs-cz">Český</MenuItem>
                 <MenuItem value="sv-se">Svenska</MenuItem>
                 <MenuItem value="et-ee">Eesti</MenuItem>
+                <MenuItem value="ru-ru">Русский</MenuItem> 
                 <MenuItem value="ja-jp">日本語</MenuItem> 
               </Select>
             </FormControl>
@@ -147,6 +148,7 @@ function Footer({ copyrightHolder = 'Company Name' }) {
                     <MenuItem value="cs-cz">Český</MenuItem>
                     <MenuItem value="sv-se">Svenska</MenuItem>
                     <MenuItem value="et-ee">Eesti</MenuItem>
+                    <MenuItem value="ru-ru">Русский</MenuItem>
                     <MenuItem value="ja-jp">日本語</MenuItem>
                   </Select>
                 </FormControl>
