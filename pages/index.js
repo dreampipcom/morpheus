@@ -74,10 +74,10 @@ const JP = {
   description: `DreamPipは投資クラウドファンディングやチャリティを通じて幸福の経験を拡大し、世界中の個人やコミュニティをつなげ、純粋な幸福だけを追求する取引を行う健全な競争を通じて満足させることをめざしています。`
 }
 
-// const RU = {
-//   title: 'DreamPip — Fintech for compassion. 📡',
-//   description: `DreamPip усиливает опыт счастья, инвестируя в краудфандинг и благотворительность, связывая людей и сообщества по всему миру в трансакциях, нацеленных лишь на счастье, через здоровое соперничество.`
-// }
+const RU = {
+  title: 'DreamPip — Fintech for compassion. 📡',
+  description: `DreamPip усиливает опыт счастья, инвестируя в краудфандинг и благотворительность, связывая людей и сообщества по всему миру в трансакциях, нацеленных лишь на счастье, через здоровое соперничество.`
+}
 
 
 
@@ -124,7 +124,8 @@ export default function Home(props) {
     "pl-pl": PL,
     "cs-cz": CZ,
     "et-ee": EE,
-    "ja-jp": JP
+    "ja-jp": JP,
+    "ru-ru": RU,
   }
 
   const meta = localeMap[locale] || localeMap['en']
