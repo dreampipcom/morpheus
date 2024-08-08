@@ -73,7 +73,12 @@ const config = {
             },
             {
                 source: '/subscribe',
-                destination: 'https://dreampip.sumupstore.com/',
+                destination: '/dash/signin',
+                permanent: true
+            },
+            {
+                source: '/members',
+                destination: '/dash/signin',
                 permanent: false                
             },
             {
@@ -109,7 +114,7 @@ const config = {
             {
                 source: '/chat',
                 destination: '/subscribe',
-                permanent: true,
+                permanent: false,
             },
             {
                 source: '/event/purizu-presents-abrakadabra-with-alabastro-mapa-splinter-dakaza-reale',
@@ -140,11 +145,15 @@ const config = {
             {"source": "/app/:match*", "destination": "https://alpha.dreampip.com/:match*"},
             // {
             //     source: '/subscribe',
-            //     destination: 'https://members.dreampip.com/',                
+            //     destination: '/dash/signin',
             // },
             // {
             //     source: '/members',
-            //     destination: 'https://members.dreampip.com/',                
+            //     destination: '/dash/signin',
+            // },
+            // {
+            //     source: '/chat',
+            //     destination: '/dash/signin',
             // },
             {
                 source: '/members/calendar',
