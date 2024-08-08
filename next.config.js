@@ -135,12 +135,12 @@ const config = {
     },
     async rewrites() {
         return [
-            {"source": "/dash", "destination": process.env.NEXUS_HOST,
+            {"source": "/dash", "destination": process.env.NEXUS_HOST},
             {"source": "/dash/:match*", "destination": `${process.env.NEXUS_HOST}/dash/:match*`},
-            {"source": "/api/v1", "destination": `${process.env.NEXUS_HOST}/api/v1`,
-            {"source": "/api/v1/:match*", "destination": `${process.env.NEXUS_HOST}/api/v1/:match*`,
-            {"source": "/services", "destination": `${process.env.NEXUS_HOST}/dash/services`,
-            {"source": "/services/:match*", "destination": `${process.env.NEXUS_HOST}/dash/services/:match*`,
+            {"source": "/api/v1", "destination": `${process.env.NEXUS_HOST}/api/v1`},
+            {"source": "/api/v1/:match*", "destination": `${process.env.NEXUS_HOST}/api/v1/:match*`},
+            {"source": "/services", "destination": `${process.env.NEXUS_HOST}/dash/services`},
+            {"source": "/services/:match*", "destination": `${process.env.NEXUS_HOST}/dash/services/:match*`},
             {"source": "/app", "destination": "https://alpha.dreampip.com/"},
             {"source": "/app/:match*", "destination": "https://alpha.dreampip.com/:match*"},
             // {
