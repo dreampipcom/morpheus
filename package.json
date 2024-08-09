@@ -1,8 +1,8 @@
 {
-  "name": "dreampip.com",
+  "name": "@dreampipcom/morpheus",
   "version": "1.0.0",
   "private": true,
-  "description": "just chilling",
+  "description": "DreamPip's Digital Content Website",
   "main": "index.js",
   "scripts": {
     "build-analyze": "ANALYZE=true next build",
@@ -15,13 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/angeloreale/dreampip.com"
+    "url": "git+https://github.com/@dreampipcom/morpheus"
   },
   "keywords": [],
   "author": "Angelo Reale",
   "license": "Copyright",
   "bugs": {
-    "url": "https://github.com/angeloreale/dreampip.com/tree/main/issues"
+    "url": "https://github.com/@dreampipcom/morpheus/tree/main/issues"
   },
   "homepage": "https://www.dreampip.com",
   "dependencies": {
@@ -32,6 +32,7 @@
     "@contentful/rich-text-html-renderer": "^15.13.1",
     "@contentful/rich-text-plain-text-renderer": "^16.0.6",
     "@contentful/rich-text-react-renderer": "^15.17.1",
+    "@dreampipcom/oneiros": "^0.0.17",
     "@emotion/react": "^11.10.4",
     "@emotion/styled": "^11.10.4",
     "@formatjs/intl-displaynames": "^6.1.4",
@@ -43,7 +44,6 @@
     "@fullcalendar/timegrid": "^6.1.8",
     "@mui/icons-material": "^5.10.6",
     "@mui/material": "^5.10.5",
-    "@mui/styles": "^5.10.3",
     "@turf/bbox": "^6.5.0",
     "@vercel/analytics": "^1.0.0",
     "accept-language": "^3.0.18",
@@ -57,14 +57,14 @@
     "mapbox-gl": "^2.15.0",
     "moment": "^2.29.4",
     "moment-timezone": "^0.5.37",
-    "next": "^13.4.19",
+    "next": "^14.2.5",
     "next-seo": "^5.5.0",
     "normalize.css": "^8.0.1",
     "plaiceholder": "^3.0.0",
     "postcss-nesting": "^10.2.0",
-    "react": "^18.2.0",
+    "react": "18.3.1",
     "react-audio-player": "^0.17.0",
-    "react-dom": "^18.2.0",
+    "react-dom": "18.3.1",
     "react-map-gl": "latest",
     "react-player": "2.10.1",
     "react-redux": "^7.2.2",
@@ -74,9 +74,9 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^13.5.1",
-    "@svgr/webpack": "^5.5.0",
+    "@svgr/webpack": "^8.1.0",
     "@types/node": "^14.14.11",
-    "@types/react": "^17.0.0",
+    "@types/react": "^18.0.0",
     "@types/react-router-dom": "^5.1.7",
     "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "^4.9.1",
@@ -95,15 +95,16 @@
     "eslint-plugin-simple-import-sort": "^6.0.1",
     "husky": "^4.3.5",
     "next-sitemap": "^4.2.3",
-    "open-cli": "^6.0.1",
+    "open-cli": "^8.0.0",
     "openai": "^4.3.1",
-    "postcss": "^8.4.30",
+    "patch-package": "^8.0.0",
+    "postcss": "^8.4.41",
     "prettier": "^2.2.1",
     "rimraf": "^3.0.2",
     "sharp": "^0.32.5",
     "source-map-explorer": "^2.5.3",
-    "tailwindcss": "^3.3.3",
-    "typescript": "^4.2.3",
-    "wait-on": "^5.2.1"
+    "tailwindcss": "3.4.4",
+    "typescript": "^5.4.5",
+    "wait-on": "^7.2.0"
   }
 }

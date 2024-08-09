@@ -7,8 +7,7 @@ import {
   IconButton,
   Toolbar,
 } from '@mui/material';
-import { makeStyles } from "@mui/styles"
-import MenuIcon from '@mui/icons-material/Menu';
+import { Button } from '@dreampipcom/oneiros';
 import Player from './Player';
 import Image from '../components/ImageBlock';
 import { HeaderLocale } from '../locale';
@@ -61,36 +60,36 @@ const Social = styled.div`
   }
 `
 
-const useStyles = makeStyles((theme) => ({
-  appBar: {
-    backgroundColor: "#1a1a1a"
-  },
-  drawer: {
-    width: '50%',
-    maxWidth: '300px',
-  },
-  listwrapper: {
-    backgroundColor: 'white',
-    height: "100%",
-  },
-  link: {
-    textDecoration: 'none',
-    fontStyle: 'italic',
-    fontWeight: 'bold',
-    color: 'black',
-    fontSize: 24,
-  },
-  logoWrapper: {
-    position: 'absolute',
-    left: '50%',
-    top: '50%',
-    transform: 'translate(-50%, -50%)',
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   appBar: {
+//     backgroundColor: "#1a1a1a"
+//   },
+//   drawer: {
+//     width: '50%',
+//     maxWidth: '300px',
+//   },
+//   listwrapper: {
+//     backgroundColor: 'white',
+//     height: "100%",
+//   },
+//   link: {
+//     textDecoration: 'none',
+//     fontStyle: 'italic',
+//     fontWeight: 'bold',
+//     color: 'black',
+//     fontSize: 24,
+//   },
+//   logoWrapper: {
+//     position: 'absolute',
+//     left: '50%',
+//     top: '50%',
+//     transform: 'translate(-50%, -50%)',
+//   },
+// }));
 
 function Header({ title = 'Headless by WP Engine', description }) {
   const [interacted, setInteracted] = useState(false)
-  const classes = useStyles();
+  // const classes = useStyles();
 
   // TODO: accept a `menuItems` prop to receive menu items from WordPress.
   const [isPlayingA, setIsPlayingA] = useState(false);
@@ -159,13 +158,12 @@ function Header({ title = 'Headless by WP Engine', description }) {
           <Image fill alt='Download on App Store' src='/images/appstore.svg' />
         </a>
       </Apps>
-      <AppBar className={classes.appBar} position='relative'>
+      <AppBar position='relative'>
         <Toolbar variant="dense" sx={{ minHeight: '120px', backgroundColor: '#1a1a1a', justifyContent: 'space-between' }}>
-          <IconButton onClick={() => {
+          <Button onClick={() => {
             setIsMenuOpen(true)
           }} edge="end" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
+          </Button>
           <div style={{
             position: 'absolute',
             left: '50%',
@@ -203,7 +201,7 @@ function Header({ title = 'Headless by WP Engine', description }) {
           />
         </PlayersWrapper>
       </AppBar>
-      {interacted ? <MenuDrawer listItems={menuItems} classes={{ drawer: classes.drawer, listwrapper: classes.listwrapper, link: classes.link }} open={isMenuOpen} onClose={() => setIsMenuOpen(false)} onOpen={() => setIsMenuOpen(true)} /> : undefined}
+      {interacted ? <MenuDrawer listItems={menuItems} open={isMenuOpen} onClose={() => setIsMenuOpen(false)} onOpen={() => setIsMenuOpen(true)} /> : undefined}
     </nav>
   );
 }
