@@ -45,10 +45,18 @@ const config = {
             },
         ]
     },
+    transpilePackages: ['@dreampipcom/oneiros'],
     modularizeImports: {
         'lodash': {
             transform: 'lodash/dist/{{member}}',
         },
+        // to-do barrel folders
+        // '@dreampipcom/oneiros/atoms': {
+        //     transform: '@dreampipcom/oneiros/dist/src/atoms/{{member}}',
+        // },
+        // '@dreampipcom/oneiros/molecules': {
+        //     transform: '@dreampipcom/oneiros/dist/src/molecules/{{member}}',
+        // },
     },
     productionBrowserSourceMaps: false,
     i18n: {

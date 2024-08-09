@@ -67,7 +67,7 @@ export function Template({ children }) {
 
   useFirstInteraction(() => {
     setLoadGlow(true)
-  }, [], [true], [loadGlow !== ""])
+  }, [], [true], [loadGlow !== ""]);
 
   return (
     <div suppressHydrationWarning className={comfortaa.className}>
@@ -78,12 +78,12 @@ export function Template({ children }) {
         <GlobalStyle />
         <CssBaseline />
         <AppContext.Provider value={rootContext}>
-          {!rootContext.mobileApp && (<Header title="DreamPip" description="Upstreaming. 📡" />)}
-          <main className={"thebigbody"} sx={{ minHeight: !!rootContext.mobileApp ? pathname === '/chat' ? 'calc(100vh - 64px)' : '100vh' : 'initial' }}>
-            {children}
-          </main>
-          <Footer />
-          {loadGlow ? <GlowReact locale={locale} /> : undefined}
+            {!rootContext.mobileApp && (<Header title="DreamPip" description="Upstreaming. 📡" />)}
+            <main className={"thebigbody"} sx={{ minHeight: !!rootContext.mobileApp ? pathname === '/chat' ? 'calc(100vh - 64px)' : '100vh' : 'initial' }}>
+              {children}
+            </main>
+            <Footer />
+            {loadGlow ? <GlowReact locale={locale} /> : undefined}
         </AppContext.Provider>
       </ThemeProvider>
     </div >

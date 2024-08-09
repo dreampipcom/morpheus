@@ -2,9 +2,9 @@ import { NextResponse } from "next/server"
 
 const apiKey = process.env.CLOUD_API_KEY
 
-export const config = {
-  runtime: 'edge',
-};
+// export const config = {
+//   runtime: 'edge',
+// };
 
 
 export default async function (req, res) {
