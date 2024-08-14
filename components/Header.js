@@ -1,12 +1,7 @@
 import React, { useEffect, useState } from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 // import Link from 'next/link';
 import Link from 'next/link';
-import {
-  AppBar,
-  IconButton,
-  Toolbar,
-} from '@mui/material';
 import { Button } from '@dreampipcom/oneiros';
 import Player from './Player';
 import Image from '../components/ImageBlock';
@@ -19,46 +14,46 @@ import dynamic from 'next/dynamic';
 const MenuDrawer = dynamic(() => import("../components/MenuDrawer"))
 
 
-const PlayersWrapper = styled.div`
-  display: flex;
-  position: relative;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: column;
+// const PlayersWrapper = styled.div`
+//   display: flex;
+//   position: relative;
+//   align-items: center;
+//   justify-content: space-between;
+//   flex-direction: column;
 
-  @media screen and (min-width: 768px) {
-    flex-direction: row;
-  }
-`;
+//   @media screen and (min-width: 768px) {
+//     flex-direction: row;
+//   }
+// `;
 
 
-const Apps = styled.div`
-  background-color: #1a1a1a;
-  display: flex;
-  justify-content: center;
-  @media screen and (min-width: 768px) {
-    display: none;
-    justify-content: center;
-    align-items: center;
-  }
-  width: 100%;
-  padding: 8px;
-`
+// const Apps = styled.div`
+//   background-color: #1a1a1a;
+//   display: flex;
+//   justify-content: center;
+//   @media screen and (min-width: 768px) {
+//     display: none;
+//     justify-content: center;
+//     align-items: center;
+//   }
+//   width: 100%;
+//   padding: 8px;
+// `
 
-const Social = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  justify-self: self-end;
-  margin: 16px;
-  @media screen and (min-width: 768px) {
-    display: flex;
-  }
-  & a {
-    width: 100%;
-    margin-left: 4px;
-  }
-`
+// const Social = styled.div`
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   justify-self: self-end;
+//   margin: 16px;
+//   @media screen and (min-width: 768px) {
+//     display: flex;
+//   }
+//   & a {
+//     width: 100%;
+//     margin-left: 4px;
+//   }
+// `
 
 // const useStyles = makeStyles((theme) => ({
 //   appBar: {
@@ -148,62 +143,64 @@ function Header({ title = 'Headless by WP Engine', description }) {
 
   })
 
-  return (
-    <nav style={{ position: "sticky", top: 0, zIndex: 999, boxShadow: "0 1px 4px 0 rgba(0,0,0,.8)" }}>
-      <Apps>
-        <a href='https://play.google.com/store/apps/details?id=com.angeloreale.purizumobile' style={{ marginRight: '8px', position: 'relative', display: 'block', height: 36, width: 124 }} >
-          <Image fill alt='Get it on Google Play' src='/images/googleplay.svg' />
-        </a>
-        <a style={{ position: 'relative', display: 'block', height: 36, width: 109 }} href='https://apps.apple.com/us/app/purizu/id1639022876'>
-          <Image fill alt='Download on App Store' src='/images/appstore.svg' />
-        </a>
-      </Apps>
-      <AppBar position='relative'>
-        <Toolbar variant="dense" sx={{ minHeight: '120px', backgroundColor: '#1a1a1a', justifyContent: 'space-between' }}>
-          <Button onClick={() => {
-            setIsMenuOpen(true)
-          }} edge="end" color="inherit" aria-label="menu">
-          </Button>
-          <div style={{
-            position: 'absolute',
-            left: '50%',
-            top: '50%',
-            transform: 'translate(-50%, -50%)',
-          }}>
-            {image && (
-              <img alt="Header image" src={image} style={{ width: "auto", height: 75, position: 'absolute', left: -55, top: "50%", transform: "translateY(-50%)" }} />
-            )}
-            <Link href={`/`}>
-              <span style={{ display: "flex", height: 120, width: 100 }}>
-                <Image eager fill src={`/${process.env.NEXT_PUBLIC_SUBPATH_PREFIX ? process.env.NEXT_PUBLIC_SUBPATH_PREFIX + '/' : ''}images/remometro-000.svg`} alt="DreamPip" />
-              </span>
-            </Link>
+  return <div> WIP </div>
 
-          </div>
-          <Social>
-            <a style={{ position: 'relative', display: 'flex', alignItems: 'center', border: 'solid 1px white', color: 'white', textDecoration: 'none', padding: '6px', fontSize: '12px' }} href={localizeUrl(`/chat`, locale)} target="_blank" onClick={() => {
-              pzTrack('click', {
-                value: 'join'
-              })
-            }}>
-              {localization['chat']}!
-            </a>
-          </Social>
-        </Toolbar>
-        <PlayersWrapper>
-          <Player
-            title={statusA ? "On Air" : "On Air"}
-            url={generateApiCall('/api/nexus/audio')}
-            theme="dark"
-            switchPlaying={switchPlayerA}
-            playing={isPlayingA}
-            status={statusA}
-          />
-        </PlayersWrapper>
-      </AppBar>
-      {interacted ? <MenuDrawer listItems={menuItems} open={isMenuOpen} onClose={() => setIsMenuOpen(false)} onOpen={() => setIsMenuOpen(true)} /> : undefined}
-    </nav>
-  );
+  // (
+  //   <nav style={{ position: "sticky", top: 0, zIndex: 999, boxShadow: "0 1px 4px 0 rgba(0,0,0,.8)" }}>
+  //     <div>
+  //       <a href='https://play.google.com/store/apps/details?id=com.angeloreale.purizumobile' style={{ marginRight: '8px', position: 'relative', display: 'block', height: 36, width: 124 }} >
+  //         <Image fill alt='Get it on Google Play' src='/images/googleplay.svg' />
+  //       </a>
+  //       <a style={{ position: 'relative', display: 'block', height: 36, width: 109 }} href='https://apps.apple.com/us/app/purizu/id1639022876'>
+  //         <Image fill alt='Download on App Store' src='/images/appstore.svg' />
+  //       </a>
+  //     </div>
+  //     <AppBar position='relative'>
+  //       <Toolbar variant="dense" sx={{ minHeight: '120px', backgroundColor: '#1a1a1a', justifyContent: 'space-between' }}>
+  //         <Button onClick={() => {
+  //           setIsMenuOpen(true)
+  //         }} edge="end" color="inherit" aria-label="menu">
+  //         </Button>
+  //         <div style={{
+  //           position: 'absolute',
+  //           left: '50%',
+  //           top: '50%',
+  //           transform: 'translate(-50%, -50%)',
+  //         }}>
+  //           {image && (
+  //             <img alt="Header image" src={image} style={{ width: "auto", height: 75, position: 'absolute', left: -55, top: "50%", transform: "translateY(-50%)" }} />
+  //           )}
+  //           <Link href={`/`}>
+  //             <span style={{ display: "flex", height: 120, width: 100 }}>
+  //               <Image eager fill src={`/${process.env.NEXT_PUBLIC_SUBPATH_PREFIX ? process.env.NEXT_PUBLIC_SUBPATH_PREFIX + '/' : ''}images/remometro-000.svg`} alt="DreamPip" />
+  //             </span>
+  //           </Link>
+
+  //         </div>
+  //         <Social>
+  //           <a style={{ position: 'relative', display: 'flex', alignItems: 'center', border: 'solid 1px white', color: 'white', textDecoration: 'none', padding: '6px', fontSize: '12px' }} href={localizeUrl(`/chat`, locale)} target="_blank" onClick={() => {
+  //             pzTrack('click', {
+  //               value: 'join'
+  //             })
+  //           }}>
+  //             {localization['chat']}!
+  //           </a>
+  //         </Social>
+  //       </Toolbar>
+  //       <PlayersWrapper>
+  //         <Player
+  //           title={statusA ? "On Air" : "On Air"}
+  //           url={generateApiCall('/api/nexus/audio')}
+  //           theme="dark"
+  //           switchPlaying={switchPlayerA}
+  //           playing={isPlayingA}
+  //           status={statusA}
+  //         />
+  //       </PlayersWrapper>
+  //     </AppBar>
+  //     {interacted ? <MenuDrawer listItems={menuItems} open={isMenuOpen} onClose={() => setIsMenuOpen(false)} onOpen={() => setIsMenuOpen(true)} /> : undefined}
+  //   </nav>
+  // );
 }
 
 export default Header;

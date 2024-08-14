@@ -1,17 +1,5 @@
 import { useContext, useEffect, useMemo, useState } from 'react';
-import styled from 'styled-components';
 import { AppContext } from '../context';
-import {
-  Select,
-  MenuItem,
-  Checkbox,
-  Input,
-  InputLabel,
-  FormControl,
-  ListItemText,
-  Button,
-} from '@mui/material';
-import { makeStyles } from '@mui/styles';
 import { getShows } from '../lib/api';
 import Head from 'next/head';
 import { Template } from '../templates';
@@ -22,12 +10,12 @@ import { localeMap } from '../lib/constants';
 import { addLocaleData, getCountry } from '../lib/intl-locales';
 import { addPlaceholders } from '../lib/server-helpers';
 
-const useStyles = makeStyles((theme) => ({
-  font: {
-    textDecoration: 'none',
-    fontStyle: 'italic',
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   font: {
+//     textDecoration: 'none',
+//     fontStyle: 'italic',
+//   },
+// }));
 
 export default function Shows(props) {
   const { shows } = props;
@@ -95,71 +83,73 @@ export default function Shows(props) {
     setFilteredevents(filtered);
   };
 
-  return (
-    <>
-      <Head>
-        <title>{title}</title>
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:site_name" content="DreamPip" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:description" content={ogDescription} />
-        <meta name="description" content={ogDescription} />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={ogImageUrl} />
-        <meta property="og:image:secure_url" content={ogImageUrl} />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <link rel="canonical" href={canonicalUrl} />
-        <link rel="alternate" hrefLang="x-default" href={defaultUrl} />
-        {Object.keys(localeMap).map((locale) => (
-          <link
-            key={locale}
-            rel="alternate"
-            hrefLang={locale}
-            href={`https://www.dreampip.com/${locale}/shows`}
-          />
-        ))}
-      </Head>
-      <article className="content-page">
-        <section style={{ backgroundColor: "#1a1a1a", color: "white", textAlign: 'center', padding: '16px', fontSize: '12px' }}>
-          <FormControl sx={{ minWidth: "300px" }}>
-            <InputLabel id="countries" className={classes.font}>{localization.countries}</InputLabel>
-            <Select
-              labelId="countries"
-              id="countries"
-              multiple
-              value={selectedcountries}
-              label="countries"
-              renderValue={(selected) => selected.map((country) => getCountry(country, locale)).join(', ')}
-              onChange={(e) => {
-                const value = e?.target?.value
-                setSelectedcountries(typeof value === 'string' ? value.split(',') : value)
-              }}
-              input={<Input label="countries" />}
-            >
-              {[...allcountries].map((name) => (
-                <MenuItem
-                  key={`${name}-${locale}`}
-                  value={name}
-                >
-                  <Checkbox checked={selectedcountries.indexOf(name) > -1} />
-                  <ListItemText primary={getCountry(name, locale)} />
-                </MenuItem>
-              ))}
-            </Select>
-          </FormControl>
-          <FormControl sx={{ m: 1 }}>
-            <Button onClick={() => {
-              setSelectedcountries([])
-              setOnlyFeatured(false)
-            }}>{localization.reset}</Button>
-          </FormControl>
-        </section>
-        <ShowGrid even {...{ items: filteredevents, locale, directory: '/show' }} />
-      </article>
-    </>
-  );
+  return <div>WIP</div>
+  // (
+  //   <>
+  //     <Head>
+  //       <title>{title}</title>
+  //       <meta property="og:title" content={ogTitle} />
+  //       <meta property="og:site_name" content="DreamPip" />
+  //       <meta property="og:url" content={canonicalUrl} />
+  //       <meta property="og:description" content={ogDescription} />
+  //       <meta name="description" content={ogDescription} />
+  //       <meta property="og:type" content="website" />
+  //       <meta property="og:image" content={ogImageUrl} />
+  //       <meta property="og:image:secure_url" content={ogImageUrl} />
+  //       <meta property="og:image:type" content="image/png" />
+  //       <meta property="og:image:width" content="1200" />
+  //       <meta property="og:image:height" content="630" />
+  //       <link rel="canonical" href={canonicalUrl} />
+  //       <link rel="alternate" hrefLang="x-default" href={defaultUrl} />
+  //       {Object.keys(localeMap).map((locale) => (
+  //         <link
+  //           key={locale}
+  //           rel="alternate"
+  //           hrefLang={locale}
+  //           href={`https://www.dreampip.com/${locale}/shows`}
+  //         />
+  //       ))}
+  //     </Head>
+  //     <article className="content-page">
+  //       <section style={{ backgroundColor: "#1a1a1a", color: "white", textAlign: 'center', padding: '16px', fontSize: '12px' }}>
+  //         <FormControl sx={{ minWidth: "300px" }}>
+  //           <InputLabel id="countries" className={classes.font}>{localization.countries}</InputLabel>
+  //           <Select
+  //             labelId="countries"
+  //             id="countries"
+  //             multiple
+  //             value={selectedcountries}
+  //             label="countries"
+  //             renderValue={(selected) => selected.map((country) => getCountry(country, locale)).join(', ')}
+  //             onChange={(e) => {
+  //               const value = e?.target?.value
+  //               setSelectedcountries(typeof value === 'string' ? value.split(',') : value)
+  //             }}
+  //             input={<Input label="countries" />}
+  //           >
+  //             {[...allcountries].map((name) => (
+  //               <MenuItem
+  //                 key={`${name}-${locale}`}
+  //                 value={name}
+  //               >
+  //                 <Checkbox checked={selectedcountries.indexOf(name) > -1} />
+  //                 <ListItemText primary={getCountry(name, locale)} />
+  //               </MenuItem>
+  //             ))}
+  //           </Select>
+  //         </FormControl>
+  //         <FormControl sx={{ m: 1 }}>
+  //           <Button onClick={() => {
+  //             setSelectedcountries([])
+  //             setOnlyFeatured(false)
+  //           }}>{localization.reset}</Button>
+  //         </FormControl>
+  //       </section>
+  //       <ShowGrid even {...{ items: filteredevents, locale, directory: '/show' }} />
+  //     </article>
+  //   </>
+  // );
+
 }
 
 export async function getStaticProps({ params, preview = false }) {

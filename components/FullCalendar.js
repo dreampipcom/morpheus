@@ -3,7 +3,6 @@ import LibCal from '@fullcalendar/react'
 import timeGridPlugin from '@fullcalendar/timegrid' // a plugin!
 import dayGridPlugin from '@fullcalendar/daygrid'
 import { EventLocale } from '../locale'
-import { Box, Button, Modal } from '@mui/material'
 
 const style = {
   position: 'absolute',
@@ -61,57 +60,55 @@ export const FullCalendar = ({ data, locale, initialView = "timeGridWeek", heade
     }
   }
   
-  return (
-
-    <div>
-      <LibCal
-        plugins={[timeGridPlugin, dayGridPlugin]}
-        headerToolbar={headerToolbar}
-        initialView={initialView}
-        nowIndicator={nowIndicator}
-        locale={locale}
-        events={data}
-        height={400}
-        firstDay={1}
-        buttonText={{
-          today: localization['T'],
-          month: localization['M'],
-          week: localization['W'],
-          day: localization['D'],
-          list: localization['L'],
-        }}
-        allDayText={localization['allDay']}
-        eventColor="#fff"
-        eventTextColor="#1b1b1b"
-        eventClick={function (info) {
-          info.jsEvent.preventDefault(); // don't let the browser navigate
-          setModalPrompt(localization['calendarPrompt'])
-          setOpen(true)
-          setInfo(info)
+  return <div>WIP</div>
+    //   <div>
+    //   <LibCal
+    //     plugins={[timeGridPlugin, dayGridPlugin]}
+    //     headerToolbar={headerToolbar}
+    //     initialView={initialView}
+    //     nowIndicator={nowIndicator}
+    //     locale={locale}
+    //     events={data}
+    //     height={400}
+    //     firstDay={1}
+    //     buttonText={{
+    //       today: localization['T'],
+    //       month: localization['M'],
+    //       week: localization['W'],
+    //       day: localization['D'],
+    //       list: localization['L'],
+    //     }}
+    //     allDayText={localization['allDay']}
+    //     eventColor="#fff"
+    //     eventTextColor="#1b1b1b"
+    //     eventClick={function (info) {
+    //       info.jsEvent.preventDefault(); // don't let the browser navigate
+    //       setModalPrompt(localization['calendarPrompt'])
+    //       setOpen(true)
+    //       setInfo(info)
           
-        }}
-        viewDidMount={(info) => {
-          try {
-            info?.view?.calendar?.scrollToTime((new Date() - info?.view?.calendar?.currentData?.dateProfile?.renderRange?.start));
-          } catch(e) {
-            return
-          }
-        }}
-      />
-      <Modal
-        open={open}
-        aria-labelledby="parent-modal-title"
-        aria-describedby="parent-modal-description"
-      >
-        <Box sx={{ ...style, maxWidth: 400, width: '90%' }}>
-          {/* <h2 id="parent-modal-title">1/2</h2> */}
-          <p id="parent-modal-description">
-            {modalPrompt}
-          </p>
-          <Button onClick={handleCancelModalClick}>Cancel</Button>
-          <Button onClick={handleOKModalClick}>OK</Button>
-        </Box>
-      </Modal>
-    </div>
-  )
+    //     }}
+    //     viewDidMount={(info) => {
+    //       try {
+    //         info?.view?.calendar?.scrollToTime((new Date() - info?.view?.calendar?.currentData?.dateProfile?.renderRange?.start));
+    //       } catch(e) {
+    //         return
+    //       }
+    //     }}
+    //   />
+    //   <Modal
+    //     open={open}
+    //     aria-labelledby="parent-modal-title"
+    //     aria-describedby="parent-modal-description"
+    //   >
+    //     <Box sx={{ ...style, maxWidth: 400, width: '90%' }}>
+    //       {/* <h2 id="parent-modal-title">1/2</h2> */}
+    //       <p id="parent-modal-description">
+    //         {modalPrompt}
+    //       </p>
+    //       <Button onClick={handleCancelModalClick}>Cancel</Button>
+    //       <Button onClick={handleOKModalClick}>OK</Button>
+    //     </Box>
+    //   </Modal>
+    // </div>
 }

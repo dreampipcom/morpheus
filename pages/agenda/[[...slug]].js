@@ -9,26 +9,22 @@ import { documentToReactComponents } from '@contentful/rich-text-react-renderer'
 import { documentToPlainTextString } from '@contentful/rich-text-plain-text-renderer';
 import Calendar from '../../components/Calendar';
 import { getAllPages, getCalData, getPage } from '../../lib/api';
-import { Box, Button, Checkbox, FormControl, IconButton, Input, MenuItem, Select, Snackbar, Switch } from '@mui/material';
-import { InputLabel, ListItemText } from '@mui/material';
-import { makeStyles } from '@mui/styles';
 import { EventLocale } from '../../locale';
 import { checkAgenda, pzTrack } from '../../lib/helpers';
-import styled from 'styled-components';
 import VideoPlayer from '../../components/VideoPlayer';
 import { AppContext } from '../../context';
 import CloseIcon from '@mui/icons-material/Close';
 
 
-const Controls = styled.div`
- display: flex;
- flex-direction: column;
+// const Controls = styled.div`
+//  display: flex;
+//  flex-direction: column;
  
- @media screen and (min-width: 768px) {
-   flex-direction: row;
-   display: block;
- }
-`
+//  @media screen and (min-width: 768px) {
+//    flex-direction: row;
+//    display: block;
+//  }
+// `
 
 const renderOptions = (content, params) => {
   // create an entry map
@@ -92,12 +88,12 @@ const renderOptions = (content, params) => {
   }
 }
 
-const useStyles = makeStyles((theme) => ({
-  font: {
-    textDecoration: 'none',
-    fontStyle: 'italic',
-  },
-}));
+// const useStyles = makeStyles((theme) => ({
+//   font: {
+//     textDecoration: 'none',
+//     fontStyle: 'italic',
+//   },
+// }));
 
 export default function Page({ page, agenda, generatedIn, cal }) {
   const context = useContext(AppContext)
@@ -262,166 +258,168 @@ export default function Page({ page, agenda, generatedIn, cal }) {
     setMapMode(newMode)
   }
 
-  const action = (
-    <div>
-      <Button size="small" onClick={handleClick} sx={{ color: 'black' }} color="primary">
-        {localization['sendEmail']}
-      </Button>
-      <IconButton
-        size="small"
-        aria-label="close"
-        onClick={handleClose}
-        color='primary'
-        sx={{ color: 'black' }}
-      >
-        <CloseIcon fontSize="small" />
-      </IconButton>
-    </div>
-  );
+  const action = <div>WIP</div>
+  // (
+  //   <div>
+  //     <Button size="small" onClick={handleClick} sx={{ color: 'black' }} color="primary">
+  //       {localization['sendEmail']}
+  //     </Button>
+  //     <IconButton
+  //       size="small"
+  //       aria-label="close"
+  //       onClick={handleClose}
+  //       color='primary'
+  //       sx={{ color: 'black' }}
+  //     >
+  //       <CloseIcon fontSize="small" />
+  //     </IconButton>
+  //   </div>
+  // );
 
 
-  return (
-    <>
-      <Head>
-        <title>{title}</title>
-        <meta property="og:title" content={title} />
-        <meta property="og:site_name" content="DreamPip" />
-        <meta property="og:url" content={url} />
-        <meta property="og:description" content={description || snippet} />
-        <meta name="description" content={description || snippet} />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:image"
-          content={image || "https://www.dreampip.com/og-image.png" + "?fm=jpg&w=512"}
-        />
-        <meta
-          property="og:image:secure_url"
-          content={image || "https://www.dreampip.com/og-image.png" + "?fm=jpg&w=512"}
-        />
-        <meta
-          property="twitter:image"
-          content={image || "https://www.dreampip.com/og-image.png" + "?fm=jpg&w=512"}
-        />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <link rel="canonical" href={url} />
-        <link rel="alternate" hrefLang="x-default" href={`https://www.dreampip.com/${actualSlug}`} />
-        {Object.keys(localeMap).map((locale) => {
-          return <link key={locale} rel="alternate" hrefLang={locale} href={`https://www.dreampip.com/${locale}/${actualSlug}`} />
-        })}
-      </Head>
-      <article className="content-page">
-        <Controls style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: "#1a1a1a", color: "white", textAlign: 'center', padding: '16px', fontSize: '12px' }}>
-          <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '16px' }}>
-            <InputLabel id="mode" className={classes.font}>{localization.mode}</InputLabel>
-            <FormControl sx={{ justifyContent: 'center', alignItems: 'center', marginX: '16px' }}>
-              <Switch id="mode" {...label} onClick={toggleMode} />{mapMode === 'space' ? localization['space'] : localization['time']}
-            </FormControl>
-          </Box>
-          <FormControl sx={{ width: "300px", marginY: ["16px", null, null, 0], marginX: '16px' }}>
-            <InputLabel id="terms" className={classes.font}>{localization.terms}</InputLabel>
-            <Select
-              labelId="terms"
-              id="terms"
-              multiple
-              value={selectedFacets["terms"] || []}
-              label={localization.terms} // Label for the form control
-              renderValue={(selected) => {
-                return selected.map((term) => term).join(', ')
-              }} // Display selected values
-              onChange={(e) => {
-                const value = e?.target?.value;
-                toggleFacetOption('terms', value);
-              }}
-              input={<Input label={localization.terms} />} // Input label
-            >
-              {/* Mapping through the available countries */}
-              {terms && [...terms].map((name) => (
-                <MenuItem
-                  key={`${name}-${locale}`}
-                  value={name}
-                >
-                  {/* Checkbox and country name */}
-                  <Checkbox checked={selectedFacets['terms']?.indexOf(name) > -1} />
-                  <ListItemText primary={name} />
-                </MenuItem>
-              ))}
-            </Select>
+  return <div>WIP</div>
+  // (
+  //   <>
+  //     <Head>
+  //       <title>{title}</title>
+  //       <meta property="og:title" content={title} />
+  //       <meta property="og:site_name" content="DreamPip" />
+  //       <meta property="og:url" content={url} />
+  //       <meta property="og:description" content={description || snippet} />
+  //       <meta name="description" content={description || snippet} />
+  //       <meta property="og:type" content="website" />
+  //       <meta
+  //         property="og:image"
+  //         content={image || "https://www.dreampip.com/og-image.png" + "?fm=jpg&w=512"}
+  //       />
+  //       <meta
+  //         property="og:image:secure_url"
+  //         content={image || "https://www.dreampip.com/og-image.png" + "?fm=jpg&w=512"}
+  //       />
+  //       <meta
+  //         property="twitter:image"
+  //         content={image || "https://www.dreampip.com/og-image.png" + "?fm=jpg&w=512"}
+  //       />
+  //       <meta property="og:image:type" content="image/jpeg" />
+  //       <meta property="og:image:width" content="1200" />
+  //       <meta property="og:image:height" content="630" />
+  //       <link rel="canonical" href={url} />
+  //       <link rel="alternate" hrefLang="x-default" href={`https://www.dreampip.com/${actualSlug}`} />
+  //       {Object.keys(localeMap).map((locale) => {
+  //         return <link key={locale} rel="alternate" hrefLang={locale} href={`https://www.dreampip.com/${locale}/${actualSlug}`} />
+  //       })}
+  //     </Head>
+  //     <article className="content-page">
+  //       <Controls style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: "#1a1a1a", color: "white", textAlign: 'center', padding: '16px', fontSize: '12px' }}>
+  //         <Box sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '16px' }}>
+  //           <InputLabel id="mode" className={classes.font}>{localization.mode}</InputLabel>
+  //           <FormControl sx={{ justifyContent: 'center', alignItems: 'center', marginX: '16px' }}>
+  //             <Switch id="mode" {...label} onClick={toggleMode} />{mapMode === 'space' ? localization['space'] : localization['time']}
+  //           </FormControl>
+  //         </Box>
+  //         <FormControl sx={{ width: "300px", marginY: ["16px", null, null, 0], marginX: '16px' }}>
+  //           <InputLabel id="terms" className={classes.font}>{localization.terms}</InputLabel>
+  //           <Select
+  //             labelId="terms"
+  //             id="terms"
+  //             multiple
+  //             value={selectedFacets["terms"] || []}
+  //             label={localization.terms} // Label for the form control
+  //             renderValue={(selected) => {
+  //               return selected.map((term) => term).join(', ')
+  //             }} // Display selected values
+  //             onChange={(e) => {
+  //               const value = e?.target?.value;
+  //               toggleFacetOption('terms', value);
+  //             }}
+  //             input={<Input label={localization.terms} />} // Input label
+  //           >
+  //             {/* Mapping through the available countries */}
+  //             {terms && [...terms].map((name) => (
+  //               <MenuItem
+  //                 key={`${name}-${locale}`}
+  //                 value={name}
+  //               >
+  //                 {/* Checkbox and country name */}
+  //                 <Checkbox checked={selectedFacets['terms']?.indexOf(name) > -1} />
+  //                 <ListItemText primary={name} />
+  //               </MenuItem>
+  //             ))}
+  //           </Select>
 
-          </FormControl>
-          {mapMode === 'space' ? (
-            <FormControl sx={{ width: "300px", marginY: ["16px", null, null, 0], marginX: '16px' }}>
-              <InputLabel id="timeframe" className={classes.font}>{localization.timeframe}</InputLabel>
-              <Select
-                labelId="timeFrame"
-                id="timeFrame"
-                value={selectedTimeframe}
-                label={localization.timeframe} // Label for the form control
-                onChange={(e) => {
-                  const value = e?.target?.value;
-                  setSelectedTimeframe(value);
-                }}
-                input={<Input label={localization.timeframe} />} // Input label
-              >
-                {/* Mapping through the available countries */}
-                {Object.keys(TIMEFRAMES).map((name) => (
-                  <MenuItem
-                    key={`${name}-${locale}`}
-                    value={name}
-                  >
-                    {/* Checkbox and country name */}
-                    {/* <Checkbox checked={selectedcountries.indexOf(name) > -1} /> */}
-                    <ListItemText primary={localization[name]} />
-                  </MenuItem>
-                ))}
-              </Select>
+  //         </FormControl>
+  //         {mapMode === 'space' ? (
+  //           <FormControl sx={{ width: "300px", marginY: ["16px", null, null, 0], marginX: '16px' }}>
+  //             <InputLabel id="timeframe" className={classes.font}>{localization.timeframe}</InputLabel>
+  //             <Select
+  //               labelId="timeFrame"
+  //               id="timeFrame"
+  //               value={selectedTimeframe}
+  //               label={localization.timeframe} // Label for the form control
+  //               onChange={(e) => {
+  //                 const value = e?.target?.value;
+  //                 setSelectedTimeframe(value);
+  //               }}
+  //               input={<Input label={localization.timeframe} />} // Input label
+  //             >
+  //               {/* Mapping through the available countries */}
+  //               {Object.keys(TIMEFRAMES).map((name) => (
+  //                 <MenuItem
+  //                   key={`${name}-${locale}`}
+  //                   value={name}
+  //                 >
+  //                   {/* Checkbox and country name */}
+  //                   {/* <Checkbox checked={selectedcountries.indexOf(name) > -1} /> */}
+  //                   <ListItemText primary={localization[name]} />
+  //                 </MenuItem>
+  //               ))}
+  //             </Select>
 
-            </FormControl>
-          ) : (
-            <FormControl sx={{ width: "300px", marginY: ["16px", null, null, 0], marginX: '16px' }}>
-              <InputLabel id="cities" className={classes.font}>{localization.city}</InputLabel>
-              <Select
-                labelId="cities"
-                id="cities"
-                multiple
-                value={selectedFacets["cities"] || []}
-                label={localization.terms} // Label for the form control
-                renderValue={(selected) => selected.map((city) => MAP_CENTRES[city]?.city).join(', ')} // Display selected values
-                onChange={(e) => {
-                  const value = e?.target?.value;
-                  toggleFacetOption('cities', value);
-                }}
-                input={<Input label={localization.city} />} // Input label
-              >
-                {/* Mapping through the available countries */}
-                {Object.keys(MAP_CENTRES) && Object.values(MAP_CENTRES).filter((agenda) => agenda.slug).map((name) => (
-                  <MenuItem
-                    key={`${name.slug}-${locale}`}
-                    value={name.slug}
-                  >
-                    {/* Checkbox and country name */}
-                    <Checkbox checked={selectedFacets['cities']?.indexOf(name.slug) > -1} />
-                    <ListItemText primary={name.city} />
-                  </MenuItem>
-                ))}
-              </Select>
+  //           </FormControl>
+  //         ) : (
+  //           <FormControl sx={{ width: "300px", marginY: ["16px", null, null, 0], marginX: '16px' }}>
+  //             <InputLabel id="cities" className={classes.font}>{localization.city}</InputLabel>
+  //             <Select
+  //               labelId="cities"
+  //               id="cities"
+  //               multiple
+  //               value={selectedFacets["cities"] || []}
+  //               label={localization.terms} // Label for the form control
+  //               renderValue={(selected) => selected.map((city) => MAP_CENTRES[city]?.city).join(', ')} // Display selected values
+  //               onChange={(e) => {
+  //                 const value = e?.target?.value;
+  //                 toggleFacetOption('cities', value);
+  //               }}
+  //               input={<Input label={localization.city} />} // Input label
+  //             >
+  //               {/* Mapping through the available countries */}
+  //               {Object.keys(MAP_CENTRES) && Object.values(MAP_CENTRES).filter((agenda) => agenda.slug).map((name) => (
+  //                 <MenuItem
+  //                   key={`${name.slug}-${locale}`}
+  //                   value={name.slug}
+  //                 >
+  //                   {/* Checkbox and country name */}
+  //                   <Checkbox checked={selectedFacets['cities']?.indexOf(name.slug) > -1} />
+  //                   <ListItemText primary={name.city} />
+  //                 </MenuItem>
+  //               ))}
+  //             </Select>
 
-            </FormControl>
-          )}
-        </Controls>
-        <section className='wrap content content-single'>
-          {parsed}
-        </section>
-        <Snackbar
-          open={ctaOpen}
-          message={localization['ctaMessage']}
-          position="bottom-center"
-          action={action}
-        />
-      </article>
-    </>
-  );
+  //           </FormControl>
+  //         )}
+  //       </Controls>
+  //       <section className='wrap content content-single'>
+  //         {parsed}
+  //       </section>
+  //       <Snackbar
+  //         open={ctaOpen}
+  //         message={localization['ctaMessage']}
+  //         position="bottom-center"
+  //         action={action}
+  //       />
+  //     </article>
+  //   </>
+  // );
 }
 
 export async function getStaticProps({ params, preview = false, locale }) {

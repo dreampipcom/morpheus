@@ -1,15 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { ThemeProvider } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
 import Head from 'next/head';
-import { generateTheme } from '../scss/theme'
 import { Footer, Header } from '../components';
 import { AppContext } from '../context';
-import GlobalStyle from '../scss/global'
+// import GlobalStyle from '../scss/global';
 import { useRouter } from 'next/router';
-import { Box } from '@mui/material';
 import { Comfortaa } from 'next/font/google';
-import dynamic from 'next/dynamic'
+import dynamic from 'next/dynamic';
 import { useFirstInteraction } from '../hooks/useFirstInteraction';
 import Bugsnag from '@bugsnag/js';
 
@@ -19,7 +15,7 @@ const GlowReact = dynamic(() =>
 
 const comfortaa = Comfortaa({ subsets: ['latin'], display: 'swap' })
 
-export const theme = generateTheme({ fontFamily: comfortaa.style.fontFamily })
+// export const theme = generateTheme({ fontFamily: comfortaa.style.fontFamily })
 
 export function Template({ children }) {
   const { locale: orig, pathname } = useRouter()
@@ -74,9 +70,8 @@ export function Template({ children }) {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
       </Head>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <CssBaseline />
+        {/*<GlobalStyle />*/}
+        {/*<CssBaseline />*/}
         <AppContext.Provider value={rootContext}>
             {!rootContext.mobileApp && (<Header title="DreamPip" description="Upstreaming. 📡" />)}
             <main className={"thebigbody"} sx={{ minHeight: !!rootContext.mobileApp ? pathname === '/chat' ? 'calc(100vh - 64px)' : '100vh' : 'initial' }}>
@@ -85,7 +80,6 @@ export function Template({ children }) {
             <Footer />
             {loadGlow ? <GlowReact locale={locale} /> : undefined}
         </AppContext.Provider>
-      </ThemeProvider>
     </div >
   );
 }

@@ -1,17 +1,5 @@
 import { useContext, useEffect, useMemo, useState } from 'react';
-import styled from 'styled-components';
 import { AppContext } from '../context';
-import {
-  Select,
-  MenuItem,
-  Checkbox,
-  Input,
-  InputLabel,
-  FormControl,
-  ListItemText,
-  Button,
-} from '@mui/material';
-import { makeStyles } from '@mui/styles';
 import { getEvents } from '../lib/api';
 import Head from 'next/head';
 import { Template } from '../templates';
@@ -22,58 +10,58 @@ import { ShowGrid } from '../components/ShowGrid';
 import { EventLocale } from '../locale';
 import { addPlaceholders } from '../lib/server-helpers';
 
-const EventsWrapper =styled.div`
-display: grid;
-grid-template-columns: 1fr;
+// const EventsWrapper =styled.div`
+// display: grid;
+// grid-template-columns: 1fr;
 
-@media screen and (min-width: 375px) {
-  grid-template-columns: 1fr 1fr;
-}
+// @media screen and (min-width: 375px) {
+//   grid-template-columns: 1fr 1fr;
+// }
 
-@media screen and (min-width: 768px) {
-  grid-template-columns: 1fr 1fr 1fr;
-}
+// @media screen and (min-width: 768px) {
+//   grid-template-columns: 1fr 1fr 1fr;
+// }
 
-@media screen and (min-width: 1280px) {
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-`
+// @media screen and (min-width: 1280px) {
+//   grid-template-columns: 1fr 1fr 1fr 1fr;
+// }
+// `
 
-const Event = styled.div`
-position: relative;
-overflow: hidden;
+// const Event = styled.div`
+// position: relative;
+// overflow: hidden;
 
-height: 100%;
-width: 100%;
+// height: 100%;
+// width: 100%;
 
-${(props) => {
-  if (props.past) {
-    return `
-    &:after {
-      content: "";
-      background-color: rgba(0,0,0,0.7);
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      z-index: 1;
-      height: 100%;
-    }`
-  }
-}}
+// ${(props) => {
+//   if (props.past) {
+//     return `
+//     &:after {
+//       content: "";
+//       background-color: rgba(0,0,0,0.7);
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       width: 100%;
+//       z-index: 1;
+//       height: 100%;
+//     }`
+//   }
+// }}
 
-&:hover:after {
-  content: "";
-  background-color: rgba(0,0,0,0.2);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1;
-  height: 100%;
-  cursor: pointer;
-}
-`
+// &:hover:after {
+//   content: "";
+//   background-color: rgba(0,0,0,0.2);
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+//   z-index: 1;
+//   height: 100%;
+//   cursor: pointer;
+// }
+// `
 
 const useStyles = makeStyles((theme) => ({
   font: {
@@ -146,74 +134,75 @@ export default function Events({ events }) {
     addLocaleData(locale)
   },[])
 
-  return (
-    <>
-      <Head>
-        <title>{title}</title>
-        <meta property="og:title" content={ogTitle} />
-        <meta property="og:site_name" content="DreamPip" />
-        <meta property="og:url" content={canonicalUrl} />
-        <meta property="og:description" content={ogDescription} />
-        <meta name="description" content={ogDescription} />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content={ogImageUrl} />
-        <meta property="og:image:secure_url" content={ogImageUrl} />
-        <meta property="og:image:type" content="image/png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <link rel="canonical" href={canonicalUrl} />
-        <link rel="alternate" hrefLang="x-default" href={defaultUrl} />
-        {Object.keys(localeMap).map((locale) => (
-          <link
-            key={locale}
-            rel="alternate"
-            hrefLang={locale}
-            href={`https://www.dreampip.com/${locale}/events`}
-          />
-        ))}
-      </Head>
-      <article className="content-page">
-        <section style={{ backgroundColor: "#1a1a1a", color: "white", textAlign: 'center', padding: '16px', fontSize: '12px' }}>
-          <FormControl sx={{ minWidth: "300px" }}>
-            <InputLabel id="countries" className={classes.font}>{localization.countries}</InputLabel>
-            <Select
-              labelId="countries"
-              id="countries"
-              multiple
-              value={selectedcountries}
-              label={localization.countries} // Label for the form control
-              renderValue={(selected) => selected.map((country) => getCountry(country, locale)).join(', ')} // Display selected values
-              onChange={(e) => {
-                const value = e?.target?.value;
-                setSelectedcountries(typeof value === 'string' ? value.split(',') : value);
-              }}
-              input={<Input label={localization.countries} />} // Input label
-            >
-              {/* Mapping through the available countries */}
-              {[...allcountries].map((name) => (
-                <MenuItem
-                  key={`${name}-${locale}`}
-                  value={name}
-                >
-                  {/* Checkbox and country name */}
-                  <Checkbox checked={selectedcountries.indexOf(name) > -1} />
-                  <ListItemText primary={getCountry(name, locale)} />
-                </MenuItem>
-              ))}
-            </Select>
+  return <div>WIP</div>
+  // (
+  //   <>
+  //     <Head>
+  //       <title>{title}</title>
+  //       <meta property="og:title" content={ogTitle} />
+  //       <meta property="og:site_name" content="DreamPip" />
+  //       <meta property="og:url" content={canonicalUrl} />
+  //       <meta property="og:description" content={ogDescription} />
+  //       <meta name="description" content={ogDescription} />
+  //       <meta property="og:type" content="website" />
+  //       <meta property="og:image" content={ogImageUrl} />
+  //       <meta property="og:image:secure_url" content={ogImageUrl} />
+  //       <meta property="og:image:type" content="image/png" />
+  //       <meta property="og:image:width" content="1200" />
+  //       <meta property="og:image:height" content="630" />
+  //       <link rel="canonical" href={canonicalUrl} />
+  //       <link rel="alternate" hrefLang="x-default" href={defaultUrl} />
+  //       {Object.keys(localeMap).map((locale) => (
+  //         <link
+  //           key={locale}
+  //           rel="alternate"
+  //           hrefLang={locale}
+  //           href={`https://www.dreampip.com/${locale}/events`}
+  //         />
+  //       ))}
+  //     </Head>
+  //     <article className="content-page">
+  //       <section style={{ backgroundColor: "#1a1a1a", color: "white", textAlign: 'center', padding: '16px', fontSize: '12px' }}>
+  //         <FormControl sx={{ minWidth: "300px" }}>
+  //           <InputLabel id="countries" className={classes.font}>{localization.countries}</InputLabel>
+  //           <Select
+  //             labelId="countries"
+  //             id="countries"
+  //             multiple
+  //             value={selectedcountries}
+  //             label={localization.countries} // Label for the form control
+  //             renderValue={(selected) => selected.map((country) => getCountry(country, locale)).join(', ')} // Display selected values
+  //             onChange={(e) => {
+  //               const value = e?.target?.value;
+  //               setSelectedcountries(typeof value === 'string' ? value.split(',') : value);
+  //             }}
+  //             input={<Input label={localization.countries} />} // Input label
+  //           >
+  //             {/* Mapping through the available countries */}
+  //             {[...allcountries].map((name) => (
+  //               <MenuItem
+  //                 key={`${name}-${locale}`}
+  //                 value={name}
+  //               >
+  //                 {/* Checkbox and country name */}
+  //                 <Checkbox checked={selectedcountries.indexOf(name) > -1} />
+  //                 <ListItemText primary={getCountry(name, locale)} />
+  //               </MenuItem>
+  //             ))}
+  //           </Select>
 
-          </FormControl>
-          <FormControl sx={{ m: 1 }}>
-            <Button onClick={() => {
-              setSelectedcountries([]);
-              setOnlyFeatured(false);
-            }}>{localization.reset}</Button>
-          </FormControl>
-        </section>
-        <ShowGrid even {...{ items: filteredevents, locale, directory: '/event', past: true }} />
-      </article>
-    </>
-  );
+  //         </FormControl>
+  //         <FormControl sx={{ m: 1 }}>
+  //           <Button onClick={() => {
+  //             setSelectedcountries([]);
+  //             setOnlyFeatured(false);
+  //           }}>{localization.reset}</Button>
+  //         </FormControl>
+  //       </section>
+  //       <ShowGrid even {...{ items: filteredevents, locale, directory: '/event', past: true }} />
+  //     </article>
+  //   </>
+  // );
 }
 
 export async function getStaticProps({ params, preview = false }) {
@@ -239,3 +228,4 @@ Events.getLayout = function getLayout(page) {
     </Template>
   )
 }
+
