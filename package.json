@@ -25,6 +25,7 @@
   },
   "homepage": "https://www.dreampip.com",
   "dependencies": {
+    "@dreampipcom/oneiros": "0.0.18",
     "@babel/runtime": "^7.16.7",
     "@bugsnag/js": "^7.18.0",
     "@bugsnag/node": "^7.19.0",
