@@ -12,6 +12,7 @@ import { Comfortaa } from 'next/font/google';
 import dynamic from 'next/dynamic'
 import { useFirstInteraction } from '../hooks/useFirstInteraction';
 import Bugsnag from '@bugsnag/js';
+import { Globals } from '@dreampipcom/oneiros';
 
 const GlowReact = dynamic(() =>
   import('../components/GlowReact').then((mod) => mod)
@@ -78,12 +79,14 @@ export function Template({ children }) {
         <GlobalStyle />
         <CssBaseline />
         <AppContext.Provider value={rootContext}>
-          {!rootContext.mobileApp && (<Header title="DreamPip" description="Upstreaming. 📡" />)}
-          <main className={"thebigbody"} sx={{ minHeight: !!rootContext.mobileApp ? pathname === '/chat' ? 'calc(100vh - 64px)' : '100vh' : 'initial' }}>
-            {children}
-          </main>
-          <Footer />
-          {loadGlow ? <GlowReact locale={locale} /> : undefined}
+          <Globals>
+            {!rootContext.mobileApp && (<Header title="DreamPip" description="Upstreaming. 📡" />)}
+            <main className={"thebigbody"} sx={{ minHeight: !!rootContext.mobileApp ? pathname === '/chat' ? 'calc(100vh - 64px)' : '100vh' : 'initial' }}>
+              {children}
+            </main>
+            <Footer />
+            {loadGlow ? <GlowReact locale={locale} /> : undefined}
+          </Globals>
         </AppContext.Provider>
       </ThemeProvider>
     </div >
