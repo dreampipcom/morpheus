@@ -17,6 +17,8 @@ import { localizeUrl, pzTrack, generateApiCall } from '../lib/helpers';
 import { useFirstInteraction } from '../hooks/useFirstInteraction';
 import dynamic from 'next/dynamic';
 
+import { Button } from '@dreampipcom/oneiros';
+
 const MenuDrawer = dynamic(() => import("../components/MenuDrawer"))
 
 
@@ -183,13 +185,13 @@ function Header({ title = 'Headless by WP Engine', description }) {
 
           </div>
           <Social>
-            <a style={{ position: 'relative', display: 'flex', alignItems: 'center', border: 'solid 1px white', color: 'white', textDecoration: 'none', padding: '6px', fontSize: '12px' }} href={localizeUrl(`/chat`, locale)} target="_blank" onClick={() => {
+            <Button href={localizeUrl(`/chat`, locale)} target="_blank" onClick={() => {
               pzTrack('click', {
                 value: 'join'
               })
             }}>
               {localization['chat']}!
-            </a>
+            </Button>
           </Social>
         </Toolbar>
         <PlayersWrapper>

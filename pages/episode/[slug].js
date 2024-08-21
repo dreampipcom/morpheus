@@ -19,7 +19,9 @@ import ReactPlayer from 'react-player';
 import VideoPlayer from '../../components/VideoPlayer';
 import { addPlaceholders } from '../../lib/server-helpers';
 import { useAsync } from '../../hooks/useAsync';
-const ics = require('ics')
+// const ics = require('ics')
+
+const ics = ""
 
 const TitleWrapper = styled.div`
   max-width: 768px;
