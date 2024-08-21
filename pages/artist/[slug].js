@@ -1,13 +1,15 @@
 import { useContext, useEffect, useMemo, useState } from 'react';
+import styled from 'styled-components';
 import { Hero } from '../../components';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
-import { AppContext } from '../../context';
-import Head from 'next/head';
+import { AppContext } from '../../context'
+import Head from 'next/head'
 import Link from 'next/link';
 import { getArtist, getArtists, getShow, getShows } from '../../lib/api';
 import { Template } from '../../templates';
 import Image from '../../components/ImageBlock';
+import { Button, Modal, Skeleton } from '@mui/material';
 import moment from 'moment-timezone';
 import { useRouter } from 'next/router';
 import { ArtistLocale } from '../../locale';
@@ -23,25 +25,25 @@ import { useAsync } from '../../hooks/useAsync';
 const ONE_HOUR = 3600000
 const TWO_HOURS = ONE_HOUR * 2
 
-// const PhotoWrapper = styled.div`
-//   width: 320px;
-//   height: 240px;
+const PhotoWrapper = styled.div`
+  width: 320px;
+  height: 240px;
 
-//   @media screen and (min-width:375px) {
-//     width: 480px;
-//     height: 320px; 
-//   }
+  @media screen and (min-width:375px) {
+    width: 480px;
+    height: 320px; 
+  }
 
-//   @media screen and (min-width:768px) {
-//     width: 768px;
-//     height: 480px; 
-//   }
+  @media screen and (min-width:768px) {
+    width: 768px;
+    height: 480px; 
+  }
 
-//   @media screen and (min-width:1280px) {
-//     width: 1024px;
-//     height: 580px; 
-//   }
-// `
+  @media screen and (min-width:1280px) {
+    width: 1024px;
+    height: 580px; 
+  }
+`
 
 const modalStyle = {
   position: 'absolute',
@@ -104,17 +106,17 @@ const renderOptions = (content) => {
   }
 }
 
-// const Content = styled.div`
-//   max-width: 768px;
-//   width: 100%;
-//   p {
-//     white-space: pre-wrap;
-//   }
+const Content = styled.div`
+  max-width: 768px;
+  width: 100%;
+  p {
+    white-space: pre-wrap;
+  }
 
-//   @media screen and (min-width: 768px) {
-//     margin-left: 48px;
-//   }
-// `;
+  @media screen and (min-width: 768px) {
+    margin-left: 48px;
+  }
+`;
 
 
 export default function Artist(props) {
@@ -270,7 +272,7 @@ export default function Artist(props) {
             <section className="landscape" style={{ maxHeight: '100%', flexBasis: '33.333%', flexGrow: 1, maxWidth: '500px', position: 'relative', alignSelf: "flex-start" }} >
               {heroContent}
             </section>
-            <div>
+            <Content>
               <section>
                 <h1 style={{ fontWeight: "300", color: "white" }}>{artist?.name}</h1>
                 {artist?.imagesCollection?.items?.length > 0 && (
@@ -326,7 +328,7 @@ export default function Artist(props) {
               )}
               {/* <hr style={{ marginBottom: "32px" }} />
               <Link href="/shows" style={{ color: "white" }}>{localization['back']}.</Link> */}
-            </div>
+            </Content>
           </section>
         )}
       </article>
@@ -399,7 +401,7 @@ const CountdownComponent = ({ mobileApp, countStart, localization, event, locale
   }, [])
   return countdownString ? (
     <p style={{ color: "white", height: 32, marginBottom: "16px", marginTop: "16px", display: 'flex', flexWrap: 'wrap', height: '100%', alignItems: 'center' }}>{localization["next"]}: {countdownString + " "}
-      {/*<Button sx={{ marginY: "4px" }} startIcon={<EventIcon />} onClick={handleIcs}>{localization["calendar"]}</Button>*/}
+      <Button sx={{ marginY: "4px" }} startIcon={<EventIcon />} onClick={handleIcs}>{localization["calendar"]}</Button>
     </p>
   ) : undefined
 }

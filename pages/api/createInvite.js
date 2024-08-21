@@ -29,9 +29,9 @@ function maskValue(obj, maskForKey, maskForValue) {
   return maskedObj;
 }
 
-// export const config = {
-//   runtime: 'edge',
-// };
+export const config = {
+  runtime: 'edge',
+};
  
 
 export default async function (req, res) {
