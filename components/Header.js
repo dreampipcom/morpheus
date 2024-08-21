@@ -17,7 +17,7 @@ import { localizeUrl, pzTrack, generateApiCall } from '../lib/helpers';
 import { useFirstInteraction } from '../hooks/useFirstInteraction';
 import dynamic from 'next/dynamic';
 
-import { Button } from '@dreampipcom/oneiros';
+import { Button, Grid, AudioPlayer, EGridVariant, EBleedVariant, ESystemIcon } from '@dreampipcom/oneiros';
 
 const MenuDrawer = dynamic(() => import("../components/MenuDrawer"))
 
@@ -163,47 +163,42 @@ function Header({ title = 'Headless by WP Engine', description }) {
       </Apps>
       <AppBar className={classes.appBar} position='relative'>
         <Toolbar variant="dense" sx={{ minHeight: '120px', backgroundColor: '#1a1a1a', justifyContent: 'space-between' }}>
-          <IconButton onClick={() => {
-            setIsMenuOpen(true)
-          }} edge="end" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <div style={{
-            position: 'absolute',
-            left: '50%',
-            top: '50%',
-            transform: 'translate(-50%, -50%)',
-          }}>
-            {image && (
-              <img alt="Header image" src={image} style={{ width: "auto", height: 75, position: 'absolute', left: -55, top: "50%", transform: "translateY(-50%)" }} />
-            )}
-            <Link href={`/`}>
-              <span style={{ display: "flex", height: 120, width: 100 }}>
-                <Image eager fill src={`/${process.env.NEXT_PUBLIC_SUBPATH_PREFIX ? process.env.NEXT_PUBLIC_SUBPATH_PREFIX + '/' : ''}images/remometro-000.svg`} alt="DreamPip" />
-              </span>
-            </Link>
-
-          </div>
-          <Social>
-            <Button href={localizeUrl(`/chat`, locale)} target="_blank" onClick={() => {
-              pzTrack('click', {
-                value: 'join'
-              })
-            }}>
-              {localization['chat']}!
-            </Button>
-          </Social>
+          <Grid variant={EGridVariant.DEFAULT} bleed={EBleedVariant.ZERO}>
+            <div className="justify-self-start self-center col-span-1 col-start-0 md:!col-span-1 md:!col-start-0">
+              <Button icon={ESystemIcon['apps']} onClick={() => {
+                setIsMenuOpen(true)
+              }} edge="end" color="inherit" aria-label="menu" />
+            </div>
+            <div 
+              className="justify-self-center self-center col-span-4 col-start-2 md:!col-span-2 md:!col-start-4"
+            >
+              {image && (
+                <img alt="Header image" src={image} style={{ width: "auto", height: 75, position: 'absolute', left: -55, top: "50%", transform: "translateY(-50%)" }} />
+              )}
+              <Link href={`/`}>
+                <span style={{ display: "flex", height: 120, width: 100 }}>
+                  <Image eager fill src={`/${process.env.NEXT_PUBLIC_SUBPATH_PREFIX ? process.env.NEXT_PUBLIC_SUBPATH_PREFIX + '/' : ''}images/remometro-000.svg`} alt="DreamPip" />
+                </span>
+              </Link>
+            </div>
+            <Grid className="grid md:justify-self-end self-center col-span-6 col-start-0 md:!col-span-4 md:!col-start-6">
+                <AudioPlayer
+                  className="justify-self-start self-center col-span-1 col-start-0 md:col-span-2 col-start-0"
+                  prompt=""
+                  src={generateApiCall('/api/nexus/audio')}
+                  onPlay={switchPlayerA}
+                  playing={isPlayingA}
+                />
+                <Button className="self-center col-span-5 col-start-2 md:col-span-6 col-start-2" href={localizeUrl(`/chat`, locale)} target="_blank" onClick={() => {
+                  pzTrack('click', {
+                    value: 'join'
+                  })
+                }}>
+                  {localization['chat']}!
+                </Button>
+            </Grid>
+          </Grid>
         </Toolbar>
-        <PlayersWrapper>
-          <Player
-            title={statusA ? "On Air" : "On Air"}
-            url={generateApiCall('/api/nexus/audio')}
-            theme="dark"
-            switchPlaying={switchPlayerA}
-            playing={isPlayingA}
-            status={statusA}
-          />
-        </PlayersWrapper>
       </AppBar>
       {interacted ? <MenuDrawer listItems={menuItems} classes={{ drawer: classes.drawer, listwrapper: classes.listwrapper, link: classes.link }} open={isMenuOpen} onClose={() => setIsMenuOpen(false)} onOpen={() => setIsMenuOpen(true)} /> : undefined}
     </nav>
