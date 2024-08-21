@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect, useState, useContext } from 'react';
 import Head from 'next/head';
 import { Footer, Header } from '../components';
@@ -8,6 +9,7 @@ import dynamic from 'next/dynamic';
 import { useFirstInteraction } from '../hooks/useFirstInteraction';
 import Bugsnag from '@bugsnag/js';
 import { Globals } from '@dreampipcom/oneiros';
+import "@dreampipcom/oneiros/dist/esm/style.css"
 
 const GlowReact = dynamic(() =>
   import('../components/GlowReact').then((mod) => mod)
@@ -63,20 +65,22 @@ export function Template({ children }) {
     setLoadGlow(true)
   }, [], [true], [loadGlow !== ""]);
 
+  console.log({ Globals })
+
   return (
     <div suppressHydrationWarning className={comfortaa.className}>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
       </Head>
         <AppContext.Provider value={rootContext}>
-            <Globals>
-              {!rootContext.mobileApp && (<Header title="DreamPip" description="Upstreaming. 📡" />)}
-              <main className={"thebigbody"} sx={{ minHeight: !!rootContext.mobileApp ? pathname === '/chat' ? 'calc(100vh - 64px)' : '100vh' : 'initial' }}>
-                {children}
-              </main>
-              <Footer />
-              {loadGlow ? <GlowReact locale={locale} /> : undefined}
-            </Globals>
+              <Globals theme="dark">
+                {!rootContext.mobileApp && (<Header title="DreamPip" description="Upstreaming. 📡" />)}
+                <main className={"thebigbody"} sx={{ minHeight: !!rootContext.mobileApp ? pathname === '/chat' ? 'calc(100vh - 64px)' : '100vh' : 'initial' }}>
+                  {children}
+                </main>
+                <Footer />
+                {loadGlow ? <GlowReact locale={locale} /> : undefined}
+              </Globals>
         </AppContext.Provider>
     </div >
   );

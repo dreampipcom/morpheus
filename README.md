@@ -1,6 +1,6 @@
-# Morpheus - DreamPip's Content Presence Website
+# Nyx - DreamPip's User Experience Hub
 
-What: Legacy Next.js SSG Engine, Contentful, Payload CMS (TBI)
+What: Next.js SSG Engine
 
 ## Getting Started
 
@@ -13,9 +13,8 @@ npm run dev
 
 Documentation: TBD
 
-Nightly Environment: https://beta.dreampip.com
-
-Production Environment: https://www.dreampip.com
+Dev Environment: https://dev.nyx.dreampip.com
+Prod Environment: https://nyx.dreampip.com
 
 License: HPL3-ECO-AND-ANC 2021—Present
 

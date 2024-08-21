@@ -143,7 +143,7 @@ function Header({ title = 'Headless by WP Engine', description }) {
 
   })
 
-  return <div> WIP </div>
+  return <div><Button>Hello world.</Button> </div>
 
   // (
   //   <nav style={{ position: "sticky", top: 0, zIndex: 999, boxShadow: "0 1px 4px 0 rgba(0,0,0,.8)" }}>

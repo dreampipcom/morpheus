@@ -1,6 +1,6 @@
 import Image from '../components/ImageBlock';
 import React, { useContext, useEffect, useState } from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import { AppContext } from '../context';
 import { useRouter } from 'next/router';
 import { setCookie } from '../lib/helpers';

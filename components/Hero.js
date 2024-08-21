@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import HeadStyle from '../scss/hero'
+// import HeadStyle from '../scss/hero'
 import ReactPlayer from 'react-player';
 
 function Hero({
@@ -24,7 +24,6 @@ function Hero({
       }}
       className="hero"
     >
-      <HeadStyle />
       {isStreamingVideo && (
         <>
           <div
