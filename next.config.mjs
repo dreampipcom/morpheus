@@ -68,7 +68,7 @@ const config = {
         styledComponents: true
     },
     assetPrefix: (process.env.VERCEL_ENV && process.env.VERCEL_ENV !== 'production'
-      ? process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
       : process.env.MAIN_URL) || 'https://www.dreampip.com',
     async redirects() {
         return [
