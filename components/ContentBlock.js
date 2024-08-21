@@ -1,3 +1,4 @@
+import { Button, Chip, TextField } from "@mui/material"
 import { useContext, useEffect, useState } from "react"
 import { CB_LOCALE } from "../locale/cb"
 import { useRouter } from "next/router"
@@ -41,20 +42,18 @@ export const ContentBlock = (props) => {
 
   if (props.type === 'newsletterForm') {
     if (subscribed) return (<div>
-      {/*<Chip color="success" label={localization["already"]} />*/}
+      <Chip color="success" label={localization["already"]} />
     </div>)
-    return <div> wip </wip>
-
-  // <form onSubmit={handleOnSubmit} action="https://purizu.us10.list-manage.com/subscribe/post" method="POST" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', width: '100%', maxWidth: '80vw' }} target="_blank">
-  //     <input type="hidden" name="u" value="eef41a522049e21e6befd040e" />
-  //     <input type="hidden" name="id" value="80a6fc44a4" />
-  //     <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', flexWrap: 'wrap', flexBasis: '100%' }}>
-  //       <TextField fullWidth size="small" sx={{ marginY: 0 }} required label={'Email'} type="email" autoCapitalize="none" autocorrect="off" name="MERGE0" placeholder="youremail@gmail.com" />
-  //     </div>
-  //     <input type="hidden" name="MERGE2" id="MERGE2" size="25" value={"newsletter launch promo"}></input>
-  //     <input type="hidden" name="MERGE3" id="MERGE3" size="25" value={locale}></input>
-  //     <Button size="medium" type="submit" sx={{ marginTop: 1, flexBasis: '100%', height: '100%' }} fullWidth variant="outlined">{localization["submit"]}</Button>
-  //   </form>
+    return <form onSubmit={handleOnSubmit} action="https://purizu.us10.list-manage.com/subscribe/post" method="POST" style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', width: '100%', maxWidth: '80vw' }} target="_blank">
+      <input type="hidden" name="u" value="eef41a522049e21e6befd040e" />
+      <input type="hidden" name="id" value="80a6fc44a4" />
+      <div style={{ display: 'flex', justifyContent: 'space-between', width: '100%', flexWrap: 'wrap', flexBasis: '100%' }}>
+        <TextField fullWidth size="small" sx={{ marginY: 0 }} required label={'Email'} type="email" autoCapitalize="none" autocorrect="off" name="MERGE0" placeholder="youremail@gmail.com" />
+      </div>
+      <input type="hidden" name="MERGE2" id="MERGE2" size="25" value={"newsletter launch promo"}></input>
+      <input type="hidden" name="MERGE3" id="MERGE3" size="25" value={locale}></input>
+      <Button size="medium" type="submit" sx={{ marginTop: 1, flexBasis: '100%', height: '100%' }} fullWidth variant="outlined">{localization["submit"]}</Button>
+    </form>
   }
 
   return null
