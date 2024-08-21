@@ -26,7 +26,7 @@
     "format:fix": "next lint --fix && prettier --write --ignore-path .gitignore --ignore-path .prettierignore ."
   },
   "dependencies": {
-    "@dreampipcom/oneiros": "0.0.16",
+    "@dreampipcom/oneiros": "0.0.20",
     "@sentry/nextjs": "7.118.0",
     "next": "14.2.4",
     "react": "18",
@@ -42,7 +42,6 @@
     "@contentful/rich-text-html-renderer": "^15.13.1",
     "@contentful/rich-text-plain-text-renderer": "^16.0.6",
     "@contentful/rich-text-react-renderer": "^15.17.1",
-    "@dreampipcom/oneiros": "0.0.19",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@formatjs/intl-displaynames": "^6.1.4",
