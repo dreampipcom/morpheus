@@ -1,8 +1,4 @@
-const { LOCALES } = require("./lib/cjs-constants")
-
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-    enabled: process.env.ANALYZE === 'true',
-})
+// import { LOCALES } from "./lib/cjs-constants.js"
 
 const config = {
     async headers() {
@@ -45,14 +41,22 @@ const config = {
             },
         ]
     },
+    transpilePackages: ['@mui/x-date-pickers', '/@mui/x-date-pickers-pro'],
     modularizeImports: {
         'lodash': {
             transform: 'lodash/dist/{{member}}',
         },
+        // to-do barrel folders
+        // '@dreampipcom/oneiros/atoms': {
+        //     transform: '@dreampipcom/oneiros/dist/src/atoms/{{member}}',
+        // },
+        // '@dreampipcom/oneiros/molecules': {
+        //     transform: '@dreampipcom/oneiros/dist/src/molecules/{{member}}',
+        // },
     },
     productionBrowserSourceMaps: false,
     i18n: {
-        locales: LOCALES,
+        locales: ["en", "pt-br", "it-it", "de-de", "fr-fr", "es-es", "ro", "pl-pl", "cs-cz", "sv-se", "et-ee", "ja-jp", "ru-ru", "default"],
         defaultLocale: "default",
         localeDetection: true,
     },
@@ -183,4 +187,4 @@ const config = {
     }
 }
 
-module.exports = withBundleAnalyzer(config)
+export default config

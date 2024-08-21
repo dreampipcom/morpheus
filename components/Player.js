@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
-import ReactAudioPlayer from 'react-audio-player';
 import { isVideoConsented } from '../lib/helpers';
 import { AppContext } from '../context';
 
