@@ -17,7 +17,7 @@ import { localizeUrl, pzTrack, generateApiCall } from '../lib/helpers';
 import { useFirstInteraction } from '../hooks/useFirstInteraction';
 import dynamic from 'next/dynamic';
 
-import { Button } from '@dreampipcom/oneiros';
+import { Button, Grid, EGridVariant, EBleedVariant } from '@dreampipcom/oneiros';
 
 const MenuDrawer = dynamic(() => import("../components/MenuDrawer"))
 
@@ -163,36 +163,38 @@ function Header({ title = 'Headless by WP Engine', description }) {
       </Apps>
       <AppBar className={classes.appBar} position='relative'>
         <Toolbar variant="dense" sx={{ minHeight: '120px', backgroundColor: '#1a1a1a', justifyContent: 'space-between' }}>
-          <IconButton onClick={() => {
-            setIsMenuOpen(true)
-          }} edge="end" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <div style={{
-            position: 'absolute',
-            left: '50%',
-            top: '50%',
-            transform: 'translate(-50%, -50%)',
-          }}>
-            {image && (
-              <img alt="Header image" src={image} style={{ width: "auto", height: 75, position: 'absolute', left: -55, top: "50%", transform: "translateY(-50%)" }} />
-            )}
-            <Link href={`/`}>
-              <span style={{ display: "flex", height: 120, width: 100 }}>
-                <Image eager fill src={`/${process.env.NEXT_PUBLIC_SUBPATH_PREFIX ? process.env.NEXT_PUBLIC_SUBPATH_PREFIX + '/' : ''}images/remometro-000.svg`} alt="DreamPip" />
-              </span>
-            </Link>
-
-          </div>
-          <Social>
-            <Button href={localizeUrl(`/chat`, locale)} target="_blank" onClick={() => {
-              pzTrack('click', {
-                value: 'join'
-              })
-            }}>
-              {localization['chat']}!
-            </Button>
-          </Social>
+          <Grid variant={EGridVariant.DEFAULT} bleed={EBleedVariant.ZERO}>
+            <div className="justify-self-start self-center col-span-1 col-start-0 md:!col-span-1 md:!col-start-0">
+              <IconButton onClick={() => {
+                setIsMenuOpen(true)
+              }} edge="end" color="inherit" aria-label="menu">
+                <MenuIcon />
+              </IconButton>
+            </div>
+            <div 
+              className="justify-self-center self-center col-span-4 col-start-2 md:!col-span-2 md:!col-start-4"
+            >
+              {image && (
+                <img alt="Header image" src={image} style={{ width: "auto", height: 75, position: 'absolute', left: -55, top: "50%", transform: "translateY(-50%)" }} />
+              )}
+              <Link href={`/`}>
+                <span style={{ display: "flex", height: 120, width: 100 }}>
+                  <Image eager fill src={`/${process.env.NEXT_PUBLIC_SUBPATH_PREFIX ? process.env.NEXT_PUBLIC_SUBPATH_PREFIX + '/' : ''}images/remometro-000.svg`} alt="DreamPip" />
+                </span>
+              </Link>
+            </div>
+            <div className="md:justify-self-end self-center col-span-6 col-start-0 md:!col-span-2 md:!col-start-7">
+              <Social>
+                <Button href={localizeUrl(`/chat`, locale)} target="_blank" onClick={() => {
+                  pzTrack('click', {
+                    value: 'join'
+                  })
+                }}>
+                  {localization['chat']}!
+                </Button>
+              </Social>
+            </div>
+          </Grid>
         </Toolbar>
         <PlayersWrapper>
           <Player
