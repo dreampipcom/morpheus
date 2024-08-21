@@ -1,5 +1,20 @@
 import { useContext, useEffect, useMemo, useState } from 'react';
+import styled from 'styled-components';
 import { AppContext } from '../context';
+import {
+  Select,
+  MenuItem,
+  Checkbox,
+  Input,
+  InputLabel,
+  FormControl,
+  FormControlLabel,
+  ListItemText,
+  Button,
+  Autocomplete,
+  TextField,
+} from '@mui/material';
+import { makeStyles } from '@mui/styles';
 import { getHomeEpisodes } from '../lib/api';
 import Head from 'next/head';
 import { Template } from '../templates';
@@ -9,12 +24,12 @@ import { EpisodeLocale } from '../locale';
 import { localeMap } from '../lib/constants';
 import { addPlaceholders } from '../lib/server-helpers';
 
-// const useStyles = makeStyles((theme) => ({
-//   font: {
-//     textDecoration: 'none',
-//     fontStyle: 'italic',
-//   },
-// }));
+const useStyles = makeStyles((theme) => ({
+  font: {
+    textDecoration: 'none',
+    fontStyle: 'italic',
+  },
+}));
 
 export default function Episodes({ episodes }) {
   const classes = useStyles();
@@ -24,8 +39,8 @@ export default function Episodes({ episodes }) {
   const localization = EpisodeLocale[locale] || EpisodeLocale["default"];
 
   const url = `https://www.dreampip.com/${orig !== 'default' ? `${locale}/` : ''}shows`
-  const title = `Dream, Vibe, ...Pip! — ${localization.episodes}`;
-  const ogTitle = `${localization.episodes} — Dream, Vibe, ...Pip!`;
+  const title = `DreamPip — ${localization.episodes}`;
+  const ogTitle = `${localization.episodes} — DreamPip`;
   const ogDescription = localization.episodesDescription;
   const ogImageUrl = 'https://www.dreampip.com/og-image.png'; // Replace with your actual image URL
   const defaultUrl = 'https://www.dreampip.com/episodes';
@@ -163,93 +178,92 @@ export default function Episodes({ episodes }) {
     if (!genres) setGenres(new Set())
   }, [genres])
 
-  return <div>WIP</div>
-  // (
-  //   <>
-  //     <Head>
-  //       <title>{title}</title>
-  //       <meta property="og:title" content={ogTitle} />
-  //       <meta property="og:site_name" content="DreamPip" />
-  //       <meta property="og:url" content={canonicalUrl} />
-  //       <meta property="og:description" content={ogDescription} />
-  //       <meta name="description" content={ogDescription} />
-  //       <meta property="og:type" content="website" />
-  //       <meta property="og:image" content={ogImageUrl} />
-  //       <meta property="og:image:secure_url" content={ogImageUrl} />
-  //       <meta property="og:image:type" content="image/png" />
-  //       <meta property="og:image:width" content="1200" />
-  //       <meta property="og:image:height" content="630" />
-  //       <link rel="canonical" href={canonicalUrl} />
-  //       <link rel="alternate" hrefLang="x-default" href={defaultUrl} />
-  //       {Object.keys(localeMap).map((locale) => (
-  //         <link
-  //           key={locale}
-  //           rel="alternate"
-  //           hrefLang={locale}
-  //           href={`https://www.dreampip.com/${locale}/events`}
-  //         />
-  //       ))}
-  //     </Head>
-  //     <article className="content-page">
-  //       <section style={{ backgroundColor: "#1a1a1a", color: "white", textAlign: 'center', padding: '16px', fontSize: '12px' }}>
-  //         <FormControl sx={{ m: 1 }}>
-  //           <FormControlLabel value={onlyFeatured} className={classes.font} control={<Checkbox type="checkbox" onChange={(e) => setOnlyFeatured(e?.target?.checked)} checked={onlyFeatured} style={{ marginRight: '8px' }} />} label={localization.featured}/>
-  //         </FormControl>
-  //         <FormControl sx={{ marginRight: 0, marginBottom: 3, '@media screen and (min-width: 768px)': { marginRight: 4, marginBottom: 0 } }}>
-  //           <Autocomplete
-  //             disablePortal
-  //             id="artists-shows-filter"
-  //             options={artists}
-  //             freeSolo
-  //             sx={{ width: 300 }}
-  //             onChange={(e, input, reason) => {
-  //               const value = input?.label || input || ""
-  //               if (reason === 'clear') { setSelectedArtist("") }
-  //               else { setSelectedArtist(value.toLowerCase()) }
-  //             }}
-  //             renderInput={(params) => <TextField variant="standard" {...params} label={localization['artistsShows']} />}
-  //           />
-  //         </FormControl>
-  //         {!!genres ?
-  //           <FormControl sx={{ width: "300px" }}>
-  //             <InputLabel id="genres-label" className={classes.font}>{localization.genres}</InputLabel>
-  //             <Select
-  //               labelId="genres"
-  //               id="genres"
-  //               multiple
-  //               value={selectedGenres}
-  //               label={localization.genres}
-  //               renderValue={(selected) => selected.join(', ')}
-  //               onChange={(e) => {
-  //                 const value = e?.target?.value
-  //                 setSelectedGenres(typeof value === 'string' ? value.split(',') : value)
-  //               }}
-  //               input={<Input label={localization.genres} />}
-  //             >
-  //               {[...genres].map((name) => (
-  //                 <MenuItem
-  //                   key={name}
-  //                   value={name}
-  //                 >
-  //                   <Checkbox checked={selectedGenres.indexOf(name) > -1} />
-  //                   <ListItemText primary={name} />
-  //                 </MenuItem>
-  //               ))}
-  //             </Select>
-  //           </FormControl> : null}
-  //         <FormControl sx={{ m: 1 }}>
-  //           <Button onClick={() => {
-  //             setSelectedGenres([])
-  //             setOnlyFeatured(false)
-  //             setSelectedArtist("")
-  //           }}>{localization['reset']}</Button>
-  //         </FormControl>
-  //       </section>
-  //       <ShowGrid even {...{ items: filteredEpisodes, locale, directory: '/episode' }} />
-  //     </article>
-  //   </>
+  return (
+    <>
+      <Head>
+        <title>{title}</title>
+        <meta property="og:title" content={ogTitle} />
+        <meta property="og:site_name" content="DreamPip" />
+        <meta property="og:url" content={canonicalUrl} />
+        <meta property="og:description" content={ogDescription} />
+        <meta name="description" content={ogDescription} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={ogImageUrl} />
+        <meta property="og:image:secure_url" content={ogImageUrl} />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <link rel="canonical" href={canonicalUrl} />
+        <link rel="alternate" hrefLang="x-default" href={defaultUrl} />
+        {Object.keys(localeMap).map((locale) => (
+          <link
+            key={locale}
+            rel="alternate"
+            hrefLang={locale}
+            href={`https://www.dreampip.com/${locale}/events`}
+          />
+        ))}
+      </Head>
+      <article className="content-page">
+        <section style={{ backgroundColor: "#1a1a1a", color: "white", textAlign: 'center', padding: '16px', fontSize: '12px' }}>
+          <FormControl sx={{ m: 1 }}>
+            <FormControlLabel value={onlyFeatured} className={classes.font} control={<Checkbox type="checkbox" onChange={(e) => setOnlyFeatured(e?.target?.checked)} checked={onlyFeatured} style={{ marginRight: '8px' }} />} label={localization.featured}/>
+          </FormControl>
+          <FormControl sx={{ marginRight: 0, marginBottom: 3, '@media screen and (min-width: 768px)': { marginRight: 4, marginBottom: 0 } }}>
+            <Autocomplete
+              disablePortal
+              id="artists-shows-filter"
+              options={artists}
+              freeSolo
+              sx={{ width: 300 }}
+              onChange={(e, input, reason) => {
+                const value = input?.label || input || ""
+                if (reason === 'clear') { setSelectedArtist("") }
+                else { setSelectedArtist(value.toLowerCase()) }
+              }}
+              renderInput={(params) => <TextField variant="standard" {...params} label={localization['artistsShows']} />}
+            />
+          </FormControl>
+          {!!genres ?
+            <FormControl sx={{ width: "300px" }}>
+              <InputLabel id="genres-label" className={classes.font}>{localization.genres}</InputLabel>
+              <Select
+                labelId="genres"
+                id="genres"
+                multiple
+                value={selectedGenres}
+                label={localization.genres}
+                renderValue={(selected) => selected.join(', ')}
+                onChange={(e) => {
+                  const value = e?.target?.value
+                  setSelectedGenres(typeof value === 'string' ? value.split(',') : value)
+                }}
+                input={<Input label={localization.genres} />}
+              >
+                {[...genres].map((name) => (
+                  <MenuItem
+                    key={name}
+                    value={name}
+                  >
+                    <Checkbox checked={selectedGenres.indexOf(name) > -1} />
+                    <ListItemText primary={name} />
+                  </MenuItem>
+                ))}
+              </Select>
+            </FormControl> : null}
+          <FormControl sx={{ m: 1 }}>
+            <Button onClick={() => {
+              setSelectedGenres([])
+              setOnlyFeatured(false)
+              setSelectedArtist("")
+            }}>{localization['reset']}</Button>
+          </FormControl>
+        </section>
+        <ShowGrid even {...{ items: filteredEpisodes, locale, directory: '/episode' }} />
+      </article>
+    </>
 
-  // );
+  );
 }
 
 export async function getStaticProps({ params, preview = false }) {
