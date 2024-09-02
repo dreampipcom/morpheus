@@ -1,4 +1,4 @@
-import { LOCALES } from "./lib/cjs-constants.js"
+import { LOCALES } from "./lib/cjs-constants.mjs"
 
 const config = {
     async headers() {
