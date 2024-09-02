@@ -76,6 +76,6 @@ export let middleware = (request) => {
 
 export const config = {
     matcher: [
-        '/((?!services|dash|subs|members|app|.well-known|api|favicon.ico|fonts|images|scripts|og-image.png|sitemap|robots|_next|en|it-it|pt-br|es-es|de-de|fr-fr|ro|pl-pl|cs-cz|sv-se|et-ee|ja-jp|ru-ru).*)/',
+        '/((?!services|dash|subs|members|app|.well-known|api|favicon.ico|fonts|images|scripts|og-image.png|sitemap|robots|_next|en|it-it|pt-br|es-es|de-de|fr-fr|ro|pl-pl|cs-cz|sv-se|et-ee|ja-jp|ru-ru|ar|he|zh|nl|da|hu|ca|eu|gl|sw|hi|ms|bn|pa|tr|fi|el|ko).*)/',
     ],
 }
