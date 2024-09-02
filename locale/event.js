@@ -898,7 +898,7 @@ export const EventLocale = {
         "ctaMessage": "No veieu el vostre esdeveniment?",
         "sendEmail": "Afegiu-ho",
         "mode": "Canviar vista"
-    }
+    },
     "eu": {
         "locale": "eu",
         "timezone": "Europe/Rome",
