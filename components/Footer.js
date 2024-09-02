@@ -105,7 +105,38 @@ function Footer({ copyrightHolder = 'Company Name' }) {
                 <MenuItem value="sv-se">Svenska</MenuItem>
                 <MenuItem value="et-ee">Eesti</MenuItem>
                 <MenuItem value="ru-ru">Русский</MenuItem> 
-                <MenuItem value="ja-jp">日本語</MenuItem> 
+                <MenuItem value="ja-jp">日本語</MenuItem>
+                <MenuItem value="en">English</MenuItem>
+                <MenuItem value="it-it">Italiano</MenuItem>
+                <MenuItem value="pt-br">Português</MenuItem>
+                <MenuItem value="es-es">Español</MenuItem>
+                <MenuItem value="ro">Română</MenuItem>
+                <MenuItem value="de-de">Deutsch</MenuItem>
+                <MenuItem value="fr-fr">Français</MenuItem>
+                <MenuItem value="pl-pl">Polski</MenuItem>
+                <MenuItem value="cs-cz">Český</MenuItem>
+                <MenuItem value="sv-se">Svenska</MenuItem>
+                <MenuItem value="et-ee">Eesti</MenuItem>
+                <MenuItem value="ru-ru">Русский</MenuItem>
+                <MenuItem value="ja-jp">日本語</MenuItem>
+                <MenuItem value="ar">العربية</MenuItem>
+                <MenuItem value="he">עברית</MenuItem>
+                <MenuItem value="zh">中文</MenuItem>
+                <MenuItem value="nl">Nederlands</MenuItem>
+                <MenuItem value="da">Dansk</MenuItem>
+                <MenuItem value="hu">Magyar</MenuItem>
+                <MenuItem value="ca">Català</MenuItem>
+                <MenuItem value="eu">Euskara</MenuItem>
+                <MenuItem value="gl">Galego</MenuItem>
+                <MenuItem value="sw">Kiswahili</MenuItem>
+                <MenuItem value="hi">हिन्दी</MenuItem>
+                <MenuItem value="ms">Bahasa Melayu</MenuItem>
+                <MenuItem value="bn">বাংলা</MenuItem>
+                <MenuItem value="pa">ਪੰਜਾਬੀ</MenuItem>
+                <MenuItem value="tr">Türkçe</MenuItem>
+                <MenuItem value="fi">Suomi</MenuItem>
+                <MenuItem value="el">Ελληνικά</MenuItem>
+                <MenuItem value="ko">한국어</MenuItem>
               </Select>
             </FormControl>
           </div>
@@ -150,6 +181,24 @@ function Footer({ copyrightHolder = 'Company Name' }) {
                     <MenuItem value="et-ee">Eesti</MenuItem>
                     <MenuItem value="ru-ru">Русский</MenuItem>
                     <MenuItem value="ja-jp">日本語</MenuItem>
+                    <MenuItem value="ar">العربية</MenuItem>
+                    <MenuItem value="he">עברית</MenuItem>
+                    <MenuItem value="zh">中文</MenuItem>
+                    <MenuItem value="nl">Nederlands</MenuItem>
+                    <MenuItem value="da">Dansk</MenuItem>
+                    <MenuItem value="hu">Magyar</MenuItem>
+                    <MenuItem value="ca">Català</MenuItem>
+                    <MenuItem value="eu">Euskara</MenuItem>
+                    <MenuItem value="gl">Galego</MenuItem>
+                    <MenuItem value="sw">Kiswahili</MenuItem>
+                    <MenuItem value="hi">हिन्दी</MenuItem>
+                    <MenuItem value="ms">Bahasa Melayu</MenuItem>
+                    <MenuItem value="bn">বাংলা</MenuItem>
+                    <MenuItem value="pa">ਪੰਜਾਬੀ</MenuItem>
+                    <MenuItem value="tr">Türkçe</MenuItem>
+                    <MenuItem value="fi">Suomi</MenuItem>
+                    <MenuItem value="el">Ελληνικά</MenuItem>
+                    <MenuItem value="ko">한국어</MenuItem>
                   </Select>
                 </FormControl>
               </section>
