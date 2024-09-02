@@ -50,5 +50,77 @@ export const HomeLocale = {
   "ru-ru": {
     "locale": "ru-ru",
     "view": "Просмотреть больше записей"
+  },
+  "ar": {
+    "locale": "ar",
+    "view": "عرض المزيد من المشاركات"
+  },
+  "he": {
+      "locale": "he",
+      "view": "הצג עוד פוסטים"
+  },
+  "zh": {
+      "locale": "zh",
+      "view": "查看更多帖子"
+  },
+  "nl": {
+      "locale": "nl",
+      "view": "Meer berichten bekijken"
+  },
+  "da": {
+      "locale": "da",
+      "view": "Se flere indlæg"
+  },
+  "hu": {
+      "locale": "hu",
+      "view": "További bejegyzések megtekintése"
+  },
+  "ca": {
+      "locale": "ca",
+      "view": "Veure més publicacions"
+  },
+  "eu": {
+      "locale": "eu",
+      "view": "Ikusi gehiago post"
+  },
+  "gl": {
+      "locale": "gl",
+      "view": "Ver máis publicacións"
+  },
+  "sw": {
+      "locale": "sw",
+      "view": "Angalia machapisho zaidi"
+  },
+  "hi": {
+      "locale": "hi",
+      "view": "और पोस्ट देखें"
+  },
+  "ms": {
+      "locale": "ms",
+      "view": "Lihat lagi pos"
+  },
+  "bn": {
+      "locale": "bn",
+      "view": "আরও পোস্ট দেখুন"
+  },
+  "pa": {
+      "locale": "pa",
+      "view": "ਔਰ ਪੋਸਟ ਵੇਖੋ"
+  },
+  "tr": {
+      "locale": "tr",
+      "view": "Daha fazla gönderi görüntüle"
+  },
+  "fi": {
+      "locale": "fi",
+      "view": "Näytä lisää viestejä"
+  },
+  "el": {
+      "locale": "el",
+      "view": "Προβολή περισσότερων αναρτήσεων"
+  },
+  "ko": {
+      "locale": "ko",
+      "view": "더 많은 게시물 보기"
   }
 }
