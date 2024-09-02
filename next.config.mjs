@@ -1,4 +1,4 @@
-// import { LOCALES } from "./lib/cjs-constants.js"
+import { LOCALES } from "./lib/cjs-constants.js"
 
 const config = {
     async headers() {
@@ -56,7 +56,7 @@ const config = {
     },
     productionBrowserSourceMaps: false,
     i18n: {
-        locales: ["en", "pt-br", "it-it", "de-de", "fr-fr", "es-es", "ro", "pl-pl", "cs-cz", "sv-se", "et-ee", "ja-jp", "ru-ru", "default"],
+        locales: LOCALES,
         defaultLocale: "default",
         localeDetection: true,
     },
