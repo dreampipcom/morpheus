@@ -2,7 +2,7 @@ const fs = require('fs');
 const { params } = require('../params');
 
 
-const extractField = ({ fieldName }) => {
+const extractField = ({ fieldName, locale }) => {
   //const fieldName = params.fieldName
   function filterTextNodesFromRichText(jsonFilePath) {
     // Load the exported JSON file

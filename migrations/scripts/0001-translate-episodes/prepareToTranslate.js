@@ -5,12 +5,12 @@ const { getData } = require("./helpers/get-data");
 const { params } = require("./params");
 
 
-const prepareToTranslate = ({ isRichText, fieldName }) => {
+const prepareToTranslate = ({ isRichText, fieldName, locale }) => {
   if (isRichText) {
-    extractRichField({ fieldName });
-    flatResults()
+    extractRichField({ fieldName, locale });
+    flatResults();
   } else {
-    extractField({ fieldName });
+    extractField({ fieldName, locale });
   }
 }
 

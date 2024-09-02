@@ -3,7 +3,7 @@ const { params } = require('../params');
 
 
 
-const extractRichField = ({ fieldName }) => {
+const extractRichField = ({ fieldName, locale }) => {
   //const fieldName = params.fieldName
   // Function to recursively parse the Rich Text nodes
   function parseNodes(nodes, results = [], dry = [], entryId, path = []) {

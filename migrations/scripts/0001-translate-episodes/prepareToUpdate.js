@@ -14,7 +14,7 @@ const prepareToUpdate = ({ isRichText, locale, fieldName }) => {
   }
 }
 
-//prepareToUpdate()
+// prepareToUpdate()
 
 module.exports = {
   prepareToUpdate

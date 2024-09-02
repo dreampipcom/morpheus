@@ -1,21 +1,21 @@
-ALL_TRANSLATION_LOCALES = ['it', 'pt', 'es', 'de', 'fr', 'ro', 'pl', 'cz', 'se', 'ee', 'jp', 'ru']
+ALL_TRANSLATION_LOCALES = ['it', 'pt', 'es', 'de', 'fr', 'ro', 'pl', 'cz', 'se', 'ee', 'jp', 'ru',  'ar', 'he', 'zh', 'nl', 'da', 'hu', 'ca', 'eu', 'gl', 'sw', 'hi', 'ms', 'bn', 'pa', 'tr', 'fi', 'el', 'ko']
 
 const entry = {
-  slug: 'guests-only-dreamy-hours-wednesdays-in-london-yang-yoga-self-defense-live',
+  slug: '',
   slugField: 'url'
 }
 
 const params = {
   ...entry,
   fieldName: ['title'],
-  richFieldName: [],
-  locale: entry.slug ? ALL_TRANSLATION_LOCALES : ['it', 'pt', 'es', 'de', 'fr', 'ro', 'pl', 'cz', 'se', 'ee', 'jp', 'ru'],
+  richFieldName: ['body'],
+  locale: entry.slug ? ALL_TRANSLATION_LOCALES : ['it'],
   type: 'events',
   model: 'gpt-4',
   chunkSize: 3,
   limit: 3500,
-  sourceEnv: 'staging',
-  targetEnv: 'prod-0010'
+  sourceEnv: 'migration-0001',
+  targetEnv: 'migration-0001',
 }
 
 module.exports = {
