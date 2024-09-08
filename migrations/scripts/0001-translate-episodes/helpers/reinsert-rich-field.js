@@ -1,4 +1,5 @@
 const fs = require('fs');
+const _ = require('lodash');
 const { params } = require('../params');
 
 
@@ -11,6 +12,7 @@ const reinsertRichField = ({ locale, fieldName }) => {
         const filteredData = JSON.parse(fs.readFileSync(filteredDataPath, 'utf-8'));
 
         function replaceNode(content, path, value) {
+            console.log({ path, content })
             // Base case: If the path is empty or the content is undefined, just return.
             if (!path.length || !content) return;
 
@@ -32,12 +34,20 @@ const reinsertRichField = ({ locale, fieldName }) => {
         }
 
         // For each filtered data item, navigate to the original entry and replace
-        filteredData.forEach(dataItem => {
+        filteredData.map(dataItem => {
             const entry = originalData.items.find(entry => entry.sys.id === dataItem.entryId);
-            if (entry && entry.fields && entry.fields[fieldName]) {
-                replaceNode(entry.fields[fieldName].content, dataItem.path, dataItem.value);
+            if (entry && entry.fields) {
+                const nextData =  _.merge({}, entry.fields.superData, { [locale]: { [fieldName]: entry.fields[fieldName] } });
+                entry.fields.superData = nextData
+                replaceNode(entry.fields.superData[locale][fieldName].content, dataItem.path, dataItem.value);
             }
         });
+        const nextItems = originalData.items.map(item => {
+            item.fields = { superData: { ['en-US']: item.fields.superData } }
+            return item
+        })
+        originalData.items = nextItems
+        console.log({ sd: nextItems })
 
         // Save the updated data back to the original file
         fs.writeFileSync(`./migrations/data/destination-${locale}.json`, JSON.stringify(originalData, null, 4), 'utf-8');

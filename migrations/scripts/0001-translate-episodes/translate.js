@@ -166,7 +166,7 @@ const getTranslations = async ({ array, locale, fieldName }) => {
 
 const doTranslations = async ({ locale, fieldName }) => {
   const localizedFieldName = `${fieldName}${localeMap[locale]}`;
-  const translatedField = JSON.parse(fs.readFileSync(`./migrations/data/results-${locale}.json`, 'utf-8'));
+  const translatedField = JSON.parse(fs.readFileSync(`./migrations/data/results.json`, 'utf-8'));
   return new Promise((resolve, reject) => {
     const strArray = JSON.parse(fs.readFileSync(`./migrations/data/results-flat.json`, 'utf-8'));
     const chunks = chunkArray(strArray, params?.chunkSize);
