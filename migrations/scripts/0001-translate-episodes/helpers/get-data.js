@@ -21,8 +21,9 @@ async function getData({ fieldName, isLocalized = false, locale, isRichText = fa
       const parsed = await response.json();
 
       if (isLocalized) {
+        const newField = locale == 'it' || locale == 'en' ? fieldName : fieldName..slice(0, -2)
         const nextItems = _.map(parsed.items, (item) => {
-          const nextData =  _.merge({}, item.fields.superData, { [locale]: { [fieldName]: item.fields[fieldName] } });
+          const nextData =  _.merge({}, item.fields.superData, { [locale]: { [fieldName.slice(0,-2)]: item.fields[fieldName] } });
           item.fields = { superData: { 'en-US' : nextData } }
           return item
         })

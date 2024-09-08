@@ -9,7 +9,7 @@ const params = {
   ...entry,
   fieldName: ['title'],
   richFieldName: ['body'],
-  locale: entry.slug ? ALL_TRANSLATION_LOCALES : ['it'],
+  locale: ALL_TRANSLATION_LOCALES,
   type: 'events',
   model: 'gpt-4',
   chunkSize: 3,
