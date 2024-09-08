@@ -1,4 +1,5 @@
-require('dotenv').config()
+require('dotenv').config();
+const lodash = require('lodash');
 const fs = require('fs');
 const contentfulManagement = require('contentful-management');
 const { params } = require('./params');
@@ -6,6 +7,7 @@ const { prepareToTranslate } = require('./prepareToTranslate');
 const { doTranslations } = require('./translate');
 const { prepareToUpdate } = require('./prepareToUpdate');
 const { getData } = require('./helpers/get-data');
+const _ = require("lodash");
 
 localeMap = {
   'pt': 'Pt',
@@ -34,12 +36,22 @@ function sleep(ms) {
 }
 
 
-async function updateEntries({ locale, fieldName, isRichText }) {
+async function updateEntries({ locale, fieldName, superData, isRichText }) {
   const localizedFieldName = `${fieldName}${localeMap[locale]}`;
-  await getData({ fieldName })
-  prepareToTranslate({ locale, fieldName, isRichText })
-  await doTranslations({ locale, fieldName })
-  prepareToUpdate({ locale, fieldName, isRichText })
+  const dataField = 'superContent';
+  const memo = { results: { total : 0 } }
+
+  if (localeMap[locale] || locale === 'it') {
+    memo.results.data = await getData({ superData, fieldName: localizedFieldName, isLocalized: true, locale, isRichText, memo: memo.results });
+  } else {
+      await getData({ fieldName });
+
+      prepareToTranslate({ locale, fieldName, isRichText });
+
+      await doTranslations({ locale, fieldName });
+
+      prepareToUpdate({ locale, fieldName, isRichText });
+  }
 
   const entriesToUpdate = JSON.parse(fs.readFileSync(`./migrations/data/destination-${locale}.json`, 'utf-8'));
 
@@ -47,10 +59,10 @@ async function updateEntries({ locale, fieldName, isRichText }) {
   const environment = await space.getEnvironment(environmentId);
 
   for (const entryToUpdate of entriesToUpdate['items']) {
-    const entryId = entryToUpdate?.sys?.id
-    const newValue = entryToUpdate?.fields && entryToUpdate?.fields[fieldName] && entryToUpdate?.fields[fieldName]
+    const entryId = entryToUpdate?.sys?.id;
+    const newValue = entryToUpdate.fields.superData;
 
-    if (!newValue || !entryId) {
+    if (!entryId && !newValue) {
       console.log("Err: Nothing to update with")
       return;
     }
@@ -59,18 +71,15 @@ async function updateEntries({ locale, fieldName, isRichText }) {
     if (locale === 'it') contentfulLocale = 'it-IT'
 
     try {
+      let dest = fieldName
       const entry = await environment.getEntry(entryId);
-      if (!(entry?.fields && entry.fields[localizedFieldName] && entry.fields[localizedFieldName][contentfulLocale])) {
-        console.log("adding missing locale field")
-        if(locale === "it") {
-          entry.fields[localizedFieldName] = { 'en-US': {...entry.fields[localizedFieldName]['en-US']}, [contentfulLocale]: { ...newValue } }
-        } else {
-          entry.fields[localizedFieldName] = { [contentfulLocale]: { ...newValue } }
-        }
-      }
-      entry.fields[localizedFieldName][contentfulLocale] = newValue;  // assuming 'en-US' locale; adjust if different
+      fs.writeFileSync(`./migrations/data/src-next-${locale}.json`, JSON.stringify(entry, null, 4), 'utf-8');
+      const nextEntryFields = _.merge({}, entry.fields, entryToUpdate.fields)
+      entry.fields = nextEntryFields
+      dest = 'superData'
+      fs.writeFileSync(`./migrations/data/next-${locale}.json`, JSON.stringify(entry, null, 4), 'utf-8');
       await entry.update();
-      console.log(`SUCCESS Updated entry ${entryId} on the field ${localizedFieldName} with new value: ${JSON.stringify(newValue)}.`);
+      console.log(`SUCCESS Updated entry ${entryId} on the field ${dest}.`);
 
     } catch (error) {
       console.error(`Error updating entry ${entryId}:`, error);
@@ -82,24 +91,26 @@ async function updateEntries({ locale, fieldName, isRichText }) {
 const updateAll = async () => {
   if(!params.slug) {
     console.log("-------- WARNING: UPDATING ALL CONTENT! ----------\nWaiting 15s for you to be sure......")
-    await sleep(15000)
+    await sleep(2000)
   } else {
-    console.log(`--------  UPDATING ${params.slug} CONTENT! ----------\nWaiting 2s for you to be sure......`)
+    console.log(`-------- UPDATING ${params.slug} CONTENT! ----------\nWaiting 2s for you to be sure......`)
     await sleep(2000)
   }
 
   for (const locale of params.locale) {
     // update rich texts
     if (params?.richFieldName?.length) {
+      const superData = {};
       for (const fieldName of params.richFieldName) {
-        await updateEntries({ fieldName, locale, isRichText: true })
+        await updateEntries({ fieldName, locale, superData, isRichText: true })
       }
     }
 
     // update other fields
     if (params?.fieldName?.length) {
+      const superData = {};
       for (const fieldName of params.fieldName) {
-        await updateEntries({ fieldName, locale, isRichText: false })
+        await updateEntries({ fieldName, locale, superData, isRichText: false })
       }
     }
   }

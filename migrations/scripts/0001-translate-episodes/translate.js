@@ -120,44 +120,29 @@ const getChat = async ({ prompt, temperature, context }) => {
 const translate = async ({ array, length, locale, fieldName }) => {
   if (!array?.length) throw new Error("No prompt")
   let answer
-  try {
-    //const translatePrompt = `can you please help me translate this array \`\`\`${JSON.stringify(array)}\`\`\` from "en-US" to "${params.locale}" and please make sure your output returns a javascript array (square brackets and strings in double quotes)? as in an actual array e.g. \`\`\`["Translated string 1", "Translated string 2"]\`\`\``
-    const context = length ? 'youre missing an element. try again making sure the length of the original and translated arrays match, return the verified translated array' : ''
+  try {    const context = length ? 'youre missing an element. try again making sure the length of the original and translated arrays match, return the verified translated array' : ''
     const translatePrompt = `Array to Translate: \`\`\`${JSON.stringify(array)}\`\`\` from "en-US" to "${localeMap[locale] || locale} p.s. please don't include the original array in your answer, keep double quotes as the array elements delimiter, don't allow double quotes inside array elements, preserve the array lengths even if they're empty strings or urls.`
     let completion = await getChat({ prompt: translatePrompt, context, temperature: 0.5 })
 
     console.log(completion)
-
     const reply = completion.choices[0].message?.content
-
-    // console.log({ reply })
-    // if (reply.includes("I apologize")) {
-    //   throw new Error("try again")
-    // }
-
-   //answer = safeArray('"' + reply.replace(/\n/g, "\\n").replace(/(?<=\w)"(?=\w)/g, "'").split('["')[1].split('"]')[0] + '"')
-   console.log("before split", {translatePrompt, reply, answer, array})
-   const split = `["` + reply.split(`["`)[1].split(`"]`)[0] + `"]`
-   console.log( {split})
-   answer = JSON.parse(split)
+    console.log("before split", {translatePrompt, reply, answer, array})
+    const split = `["` + reply.split(`["`)[1].split(`"]`)[0] + `"]`
+    console.log( {split})
+    answer = JSON.parse(split)
 
     if(answer.length !== array.length) {
       console.log( {translatePrompt, reply, answer, array})
       return translate({ array, length: true})
 
     }
-    //answer = JSON.parse(reply.replace("\\n", "\n").split('```')[1])
   } catch (e) {
     throw new Error(e)
   }
   return answer
-
-  //console.log({ answer })
-
 }
 
 const getTranslations = async ({ array, locale, fieldName }) => {
-  //console.log({array})
   if (!array?.length) return new Error("No array")
   const translated = []
   let retries = 5
@@ -176,79 +161,34 @@ const getTranslations = async ({ array, locale, fieldName }) => {
     }
 }
 
-  
-
-  // for (const string in array) {
-  //   const response = await translate({ prompt: string })
-  //   if(!!response) {
-  //     translated.push(response)
-  //   }
-  // }
   return { answer: response.answer, retry: response.retry, error: response.error }
 }
 
 const doTranslations = async ({ locale, fieldName }) => {
+  const localizedFieldName = `${fieldName}${localeMap[locale]}`;
+  const translatedField = JSON.parse(fs.readFileSync(`./migrations/data/results.json`, 'utf-8'));
   return new Promise((resolve, reject) => {
     const strArray = JSON.parse(fs.readFileSync(`./migrations/data/results-flat.json`, 'utf-8'));
-    //const strArray = TEST_PROMPT
-  
     const chunks = chunkArray(strArray, params?.chunkSize);
     progressBar = new ProgressBar(chunks.length);
     const promises = chunks.map((e) => getTranslations({ array: e, locale, fieldName }))
-    // console.log({ chunks })
     let translated = [];
-  
-  
+
     Promise.all(promises)
       .then(results => {
-        const flat = results.flat(1)
-  
-        //console.log({ flat })
-      
+        const flat = results.flat(1);
         fs.writeFileSync(`./migrations/data/src-${locale}.json`, JSON.stringify(flat, null, 4), 'utf-8');
         console.log('All promises have been fulfilled!', results);
-        resolve()
+        resolve();
       })
       .catch(error => {
         console.error('One of the promises was rejected.', error);
-        reject()
+        reject();
       });
-  
-    //const progressBar = new ProgressBar(chunks.length);
-  
-    // let counter = 0
-    // let time = new Date().getTime()
-    // for (let i = 0; i < chunks.length - 1;) {
-    //   console.log("\npointer at", i)
-    //   const result = await getTranslations({ array: chunks[i] })
-    //   if (!result.retry) {
-    //     console.log("\nprogressing")
-    //     progressBar.update()
-    //     translated = [...translated, result.answer]
-    //     i++
-    //   }
-    //   counter++
-    //   const current = new Date().getTime()
-    //   const delta = current - time
-    //   if (delta > 1000 * 50 && counter === params?.limit - 1) {
-    //     let wait = (1000 * 60) - delta + 1000
-    //     if (result?.error?.code === 'rate_limit_exceeded') {
-    //       wait = 21000
-    //     }
-    //     console.log("\nWaiting....")
-    //     await sleep(wait)
-    //     time = new Date().getTime()
-    //     counter = 0
-    //   }
-    // }
-  
-    //console.log({ translated })
   })
 
 
 }
-
-//doTranslations()
 
 module.exports = {
   doTranslations

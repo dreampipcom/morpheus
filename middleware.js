@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { MAP_CENTRES } from "./lib/constants";
 import { localeMap } from "./lib/cjs-constants";
 
-const supportedLocales = ["en", "it-IT", "pt-BR", "it", "pt", "ro", "ru", "pl-PL", "de", "fr", "ja-JP", "sv-SE", "et-EE", "cs-CZ"];
+const supportedLocales = ["en", "it-IT", "pt-BR", "it", "pt", "ro", "ru", "pl-PL", "de", "fr", "ja-JP", "sv-SE", "et-EE", "cs-CZ", "ar", "he", "zh", "nl", "da", "hu", "ca", "eu", "gl", "sw", "hi", "ms", "bn", "pa", "tr", "fi", "el", "ko"];
 
 acceptLanguage.languages(supportedLocales);
 
@@ -76,6 +76,6 @@ export let middleware = (request) => {
 
 export const config = {
     matcher: [
-        '/((?!services|dash|subs|members|app|.well-known|api|favicon.ico|fonts|images|scripts|og-image.png|sitemap|robots|_next|en|it-it|pt-br|es-es|de-de|fr-fr|ro|pl-pl|cs-cz|sv-se|et-ee|ja-jp|ru-ru).*)/',
+        '/((?!services|dash|subs|members|app|.well-known|api|favicon.ico|fonts|images|scripts|og-image.png|sitemap|robots|_next|en|it-it|pt-br|es-es|de-de|fr-fr|ro|pl-pl|cs-cz|sv-se|et-ee|ja-jp|ru-ru|ar|he|zh|nl|da|hu|ca|eu|gl|sw|hi|ms|bn|pa|tr|fi|el|ko).*)/',
     ],
 }

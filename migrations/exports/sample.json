@@ -1,6 +1,6 @@
 {
   "spaceId": "",
-  "environmentId": "migration",
+  "environmentId": "migration-0001",
   "managementToken": "",
   "deliveryToken": "",
   "exportDir": "./migrations/data",

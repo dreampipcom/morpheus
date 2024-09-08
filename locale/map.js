@@ -63,5 +63,95 @@ export const MapLocale = {
     "locale": "ru-ru",
     "view": "Просмотреть больше",
     "calendar": "Добавить в календарь"
+  },
+  "ar": {
+    "locale": "ar",
+    "view": "عرض المزيد",
+    "calendar": "أضف إلى التقويم"
+  },
+  "he": {
+      "locale": "he",
+      "view": "הצג עוד",
+      "calendar": "הוסף ללוח שנה"
+  },
+  "zh": {
+      "locale": "zh",
+      "view": "查看更多",
+      "calendar": "添加到日历"
+  },
+  "nl": {
+      "locale": "nl",
+      "view": "Bekijk meer",
+      "calendar": "Toevoegen aan kalender"
+  },
+  "da": {
+      "locale": "da",
+      "view": "Se mere",
+      "calendar": "Tilføj til kalender"
+  },
+  "hu": {
+      "locale": "hu",
+      "view": "További megtekintése",
+      "calendar": "Hozzáadás a naptárhoz"
+  },
+  "ca": {
+      "locale": "ca",
+      "view": "Veure'n més",
+      "calendar": "Afegir al calendari"
+  },
+  "eu": {
+      "locale": "eu",
+      "view": "Ikusi gehiago",
+      "calendar": "Gehitu egutegian"
+  },
+  "gl": {
+      "locale": "gl",
+      "view": "Ver máis",
+      "calendar": "Engadir ao calendario"
+  },
+  "sw": {
+      "locale": "sw",
+      "view": "Onyesha zaidi",
+      "calendar": "Ongeza kwenye kalenda"
+  },
+  "hi": {
+      "locale": "hi",
+      "view": "अधिक देखें",
+      "calendar": "कैलेंडर में जोड़ें"
+  },
+  "ms": {
+      "locale": "ms",
+      "view": "Lihat lebih",
+      "calendar": "Tambah ke kalendar"
+  },
+  "bn": {
+      "locale": "bn",
+      "view": "আরও দেখুন",
+      "calendar": "ক্যালেন্ডারে যোগ করুন"
+  },
+  "pa": {
+      "locale": "pa",
+      "view": "ਹੋਰ ਵੇਖੋ",
+      "calendar": "ਕੈਲੰਡਰ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰੋ"
+  },
+  "tr": {
+      "locale": "tr",
+      "view": "Daha fazla görüntüle",
+      "calendar": "Takvime ekle"
+  },
+  "fi": {
+      "locale": "fi",
+      "view": "Näytä enemmän",
+      "calendar": "Lisää kalenteriin"
+  },
+  "el": {
+      "locale": "el",
+      "view": "Προβολή περισσότερων",
+      "calendar": "Προσθήκη στο ημερολόγιο"
+  },
+  "ko": {
+      "locale": "ko",
+      "view": "더 보기",
+      "calendar": "캘린더에 추가"
   }
 }

@@ -51,6 +51,78 @@ export const CB_LOCALE = {
     "ru-ru": {
       "submit": "Подписаться на DreamPip",
       "already": "Вы уже подписаны!"
+    },
+    "ar": {
+      "submit": "الاشتراك في DreamPip",
+      "already": "أنت مشترك بالفعل!"
+    },
+    "he": {
+      "submit": "הרשם ל- DreamPip",
+      "already": "אתה כבר רשום!"
+    },
+    "zh": {
+      "submit": "订阅DreamPip",
+      "already": "你已经订阅了！"
+    },
+    "nl": {
+      "submit": "Inschrijven voor DreamPip",
+      "already": "Je bent al ingeschreven!"
+    },
+    "da": {
+      "submit": "Tilmeld dig til DreamPip",
+      "already": "Du er allerede tilmeldt!"
+    },
+    "hu": {
+      "submit": "Feliratkozás a DreamPipre",
+      "already": "Már feliratkozott!"
+    },
+    "ca": {
+      "submit": "Subscriu-te a DreamPip",
+      "already": "Ja estàs subscrit!"
+    },
+    "eu": {
+      "submit": "DreamPip-en harpidetu",
+      "already": "Zure altxor bat dagoeneko harpidetu zara!"
+    },
+    "gl": {
+      "submit": "Subscríbete a DreamPip",
+      "already": "Xa estás subscrito!"
+    },
+    "sw": {
+      "submit": "Jiunge na DreamPip",
+      "already": "Umeshajiandikisha tayari!"
+    },
+    "hi": {
+      "submit": "DreamPip की सदस्यता लें",
+      "already": "आप पहले से ही सभी सदस्यों में शामिल हैं!"
+    },
+    "ms": {
+      "submit": "Langgan DreamPip",
+      "already": "Anda telah langgan!"
+    },
+    "bn": {
+      "submit": "DreamPip সাবস্ক্রাইব করুন",
+      "already": "আপনি ইতিমধ্যে সাবস্ক্রাইব করেছেন!"
+    },
+    "pa": {
+      "submit": "DreamPip ਵਿੱਚ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ",
+      "already": "ਤੁਸੀਂ ਪਹਿਲਾਂ ਹੀ ਸਭ ਛੜਾ ਗਏ ਹੋ!"
+    },
+    "tr": {
+      "submit": "DreamPip'e abone ol",
+      "already": "Zaten abonesiniz!"
+    },
+    "fi": {
+      "submit": "Tilaa DreamPip",
+      "already": "Olet jo tilannut!"
+    },
+    "el": {
+      "submit": "Εγγραφείτε στο DreamPip",
+      "already": "Έχετε ήδη εγγραφεί!"
+    },
+    "ko": {
+      "submit": "DreamPip에 가입하기",
+      "already": "이미 가입되었습니다!"
     }
   }
 }
