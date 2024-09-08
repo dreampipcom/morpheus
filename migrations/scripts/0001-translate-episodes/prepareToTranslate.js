@@ -8,7 +8,7 @@ const { params } = require("./params");
 const prepareToTranslate = ({ isRichText, fieldName, locale }) => {
   if (isRichText) {
     extractRichField({ fieldName, locale });
-    flatResults();
+    flatResults()
   } else {
     extractField({ fieldName, locale });
   }
